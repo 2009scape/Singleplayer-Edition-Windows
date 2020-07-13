@@ -87,7 +87,7 @@ taskkill /F /IM Java*
 taskkill /F /IM mysqld*
 cd %home%
 mkdir %home%..\.runite_rs\runescape
-robocopy data\cache\ ..\.runite_rs\runescape /MIR
+robocopy data\cache\ %userprofile%\.runite_rs\runescape\ /MIR
 cd %database%
 mkdir data
 call START ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%CD%\share\english" --datadir="%CD%\data"

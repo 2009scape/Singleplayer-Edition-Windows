@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database>
+  <offer>
+    <uid>1</uid>
+    <itemId>453</itemId>
+    <sale>false</sale>
+    <amount>1</amount>
+    <completedAmount>0</completedAmount>
+    <offeredValue>90</offeredValue>
+    <timeStamp>1594270540275</timeStamp>
+    <offerState>6</offerState>
+    <totalCoinExchange>0</totalCoinExchange>
+    <playerUID>3556498</playerUID>
+  </offer>
+  <offsetUID>2</offsetUID>
+</database>

@@ -37,11 +37,11 @@ taskkill /F /IM java*
 cls
 cd %database%
 call START ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%CD%\share\english" --datadir="%CD%\data"
-sleep 3
+PING localhost -n 4 >NUL
 cls
 SET /p username=Please enter the user to make an admin: 
 call %mariadbpath%mysql.exe -uroot -e "USE global; UPDATE `members` SET `rights` = '2' WHERE `members`.`username` = '%username%';"
-sleep 2
+PING localhost -n 3 >NUL
 echo: 
 echo %username% is now an Administrator!
 call %mariadbpath%mysqladmin.exe -uroot shutdown
@@ -63,19 +63,23 @@ exit
 cls
 cd %database%
 start /b "" %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%CD%\share\english" --datadir="%CD%\data"
-sleep 5
+PING localhost -n 6 >NUL
+
 cls
 echo:
 echo Starting 2009scape.
 echo:
 cd %home%
-start /b "" java -jar ms.jar
-sleep 1
+start /b "" java -Xms1024m -Xmx1024m -jar ms.jar
+PING localhost -n 3 >NUL
+
+
 echo "Starting server-------------------------"
-start /b "" java -cp server.jar core.Server %home%default.xml
-sleep 10
+start /b "" java -Xms1024m -Xmx1024m -cp server.jar core.Server %home%default.xml
+PING localhost -n 10 >NUL
+
 echo "Starting client-------------------------"
-start "" java -jar client.jar
+start "" java -Xms1024m -Xmx1024m -jar client.jar
 echo:
 goto start
 :<------------End Run------------>
@@ -87,11 +91,11 @@ taskkill /F /IM Java*
 taskkill /F /IM mysqld*
 cd %home%
 mkdir %home%..\.runite_rs\runescape
-robocopy data\cache\ %userprofile%\.runite_rs\runescape\ /MIR
+robocopy data\cache\ %userprofile%\.runite_rs\runescape\ /MIR /IS
 cd %database%
 mkdir data
 call START ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%CD%\share\english" --datadir="%CD%\data"
-sleep 3
+PING localhost -n 4 >NUL
 call %mariadbpath%mysql.exe -uroot -e "CREATE DATABASE global;
 call %mariadbpath%mysql.exe -uroot -e "CREATE DATABASE server;
 call %mariadbpath%mysql.exe -uroot server < "%data%\server.sql"

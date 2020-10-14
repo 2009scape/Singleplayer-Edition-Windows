@@ -1,0 +1,1366 @@
+{
+  "configs": [],
+  "familiarManager": {
+    "petDetails": []
+  },
+  "barCrawl": {
+    "started": false,
+    "bars": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "exp_multiplier": "5.0",
+  "unlockedMusic": [
+    "62"
+  ],
+  "skills": [
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "0",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "1",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "2",
+      "experience": "0.0"
+    },
+    {
+      "static": "10",
+      "dynamic": "10",
+      "id": "3",
+      "experience": "1154.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "4",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "5",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "6",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "7",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "8",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "9",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "10",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "11",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "12",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "13",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "14",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "15",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "16",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "17",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "18",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "19",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "20",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "21",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "22",
+      "experience": "0.0"
+    },
+    {
+      "static": "1",
+      "dynamic": "1",
+      "id": "23",
+      "experience": "0.0"
+    }
+  ],
+  "spellbook": "192",
+  "activityData": {
+    "elnockSupplies": false,
+    "lostCannon": false,
+    "barrowBrothers": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "barrowTunnelIndex": "0",
+    "bountyRogueRate": "0",
+    "borkKills": "0",
+    "solvedMazes": "0",
+    "bountyHunterRate": "0",
+    "pizazzPoints": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "startedMta": false,
+    "hardcoreDeath": false,
+    "pestPoints": "0",
+    "kolodionBoss": "0",
+    "warriorGuildTokens": "0",
+    "kolodionStage": "0",
+    "godCasts": [
+      "0",
+      "0",
+      "0"
+    ],
+    "barrowKills": "0",
+    "fogRating": "0",
+    "bonesToPeaches": false,
+    "lastBorkBattle": "0",
+    "topGrabbed": false
+  },
+  "farming": {},
+  "emoteData": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "37"
+  ],
+  "questData": {
+    "dragonSlayerPlanks": "0",
+    "talkedDrezel": false,
+    "desertTreasureNode": [
+      {
+        "amount": "12",
+        "id": "1513"
+      },
+      {
+        "amount": "10",
+        "id": "592"
+      },
+      {
+        "amount": "6",
+        "id": "1775"
+      },
+      {
+        "amount": "6",
+        "id": "2353"
+      },
+      {
+        "amount": "2",
+        "id": "526"
+      },
+      {
+        "amount": "2",
+        "id": "973"
+      },
+      {
+        "amount": "1",
+        "id": "565"
+      }
+    ],
+    "cooksAssistant": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "witchsExperimentKilled": false,
+    "draynorLever": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "dragonSlayer": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "witchsExperimentStage": "0",
+    "demonSlayer": [
+      false,
+      false
+    ],
+    "gardenerAttack": false
+  },
+  "settings": {
+    "attackStyle": "0",
+    "splitPrivate": false,
+    "disableChatEffects": false,
+    "clanChatSetting": "0",
+    "runToggled": false,
+    "assistSetting": "0",
+    "acceptAid": false,
+    "soundEffectVolume": "0",
+    "areaSoundVolume": "0",
+    "brightness": "2",
+    "publicChatSetting": "0",
+    "singleMouse": false,
+    "specialEnergy": "100",
+    "tradeSetting": "0",
+    "retaliation": true,
+    "privateChatSetting": "0",
+    "musicVolume": "0",
+    "runEnergy": "100.0"
+  },
+  "slayer": {
+    "taskStreak": "0",
+    "canEarnPoints": false,
+    "totalTasks": "0",
+    "learned_rewards": [
+      false,
+      false,
+      false
+    ],
+    "points": "0"
+  },
+  "quests": {
+    "questStages": [
+      {
+        "questId": "65",
+        "questStage": "0"
+      },
+      {
+        "questId": "67",
+        "questStage": "0"
+      },
+      {
+        "questId": "136",
+        "questStage": "0"
+      },
+      {
+        "questId": "14",
+        "questStage": "0"
+      },
+      {
+        "questId": "15",
+        "questStage": "0"
+      },
+      {
+        "questId": "16",
+        "questStage": "0"
+      },
+      {
+        "questId": "17",
+        "questStage": "0"
+      },
+      {
+        "questId": "81",
+        "questStage": "0"
+      },
+      {
+        "questId": "146",
+        "questStage": "0"
+      },
+      {
+        "questId": "18",
+        "questStage": "0"
+      },
+      {
+        "questId": "83",
+        "questStage": "0"
+      },
+      {
+        "questId": "19",
+        "questStage": "0"
+      },
+      {
+        "questId": "20",
+        "questStage": "0"
+      },
+      {
+        "questId": "21",
+        "questStage": "0"
+      },
+      {
+        "questId": "22",
+        "questStage": "0"
+      },
+      {
+        "questId": "87",
+        "questStage": "0"
+      },
+      {
+        "questId": "23",
+        "questStage": "0"
+      },
+      {
+        "questId": "24",
+        "questStage": "0"
+      },
+      {
+        "questId": "25",
+        "questStage": "0"
+      },
+      {
+        "questId": "26",
+        "questStage": "0"
+      },
+      {
+        "questId": "27",
+        "questStage": "0"
+      },
+      {
+        "questId": "28",
+        "questStage": "0"
+      },
+      {
+        "questId": "29",
+        "questStage": "0"
+      },
+      {
+        "questId": "30",
+        "questStage": "0"
+      },
+      {
+        "questId": "31",
+        "questStage": "0"
+      },
+      {
+        "questId": "33",
+        "questStage": "0"
+      },
+      {
+        "questId": "99",
+        "questStage": "0"
+      },
+      {
+        "questId": "105",
+        "questStage": "0"
+      },
+      {
+        "questId": "48",
+        "questStage": "0"
+      },
+      {
+        "questId": "49",
+        "questStage": "0"
+      },
+      {
+        "questId": "113",
+        "questStage": "0"
+      },
+      {
+        "questId": "123",
+        "questStage": "0"
+      },
+      {
+        "questId": "124",
+        "questStage": "0"
+      },
+      {
+        "questId": "62",
+        "questStage": "0"
+      }
+    ],
+    "points": "0"
+  },
+  "globalData": {
+    "luthasTask": false,
+    "doubleExpDelay": "0",
+    "macroDisabled": false,
+    "abyssData": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "starSpriteDelay": "0",
+    "taskAmount": "0",
+    "wydinEmployee": false,
+    "godPages": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "zafTime": "0",
+    "bossCounters": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "strongHoldRewards": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "lowAlchemyCharges": "0",
+    "rcDecays": [
+      "0",
+      "0",
+      "0"
+    ],
+    "apprentice": false,
+    "zafAmount": "8",
+    "barrowsLoots": "0",
+    "taskPoints": "0",
+    "playerTestStage": "0",
+    "hunterCapeDelay": "0",
+    "globalTeleporterDelay": "0",
+    "recoilDamage": "40",
+    "lumbridgeRope": false,
+    "avasDevice": false,
+    "hunterCapeCharges": "0",
+    "dropDelay": "0",
+    "geTutorial": false,
+    "assistTime": "0",
+    "magicSkillCapeDelay": "0",
+    "lootSharePoints": "0",
+    "essenceTeleporter": "0",
+    "readPlaques": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "chatPing": "0",
+    "overChargeDelay": "0",
+    "braceletClayUses": "0",
+    "lowAlchemyDelay": "0",
+    "travelLogs": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "homeTeleportDelay": "0",
+    "karamjaBananas": "0",
+    "forgingUses": "0",
+    "joinedMonastery": false,
+    "charmingDelay": "0",
+    "disableDeathScreen": false,
+    "silkSteal": "0",
+    "draynorRecording": false,
+    "assistExperience": [
+      "0.0",
+      "0.0",
+      "0.0",
+      "0.0",
+      "0.0",
+      "0.0",
+      "0.0",
+      "0.0",
+      "0.0"
+    ],
+    "lootShareDelay": "1596774581613",
+    "godBooks": [
+      false,
+      false,
+      false
+    ],
+    "fritzGlass": false,
+    "tutorialStage": "1",
+    "ectoCharges": "0",
+    "tutorClaim": "0",
+    "disableNews": false,
+    "runReplenishDelay": "0",
+    "doubleExp": "0",
+    "runReplenishCharges": "0"
+  },
+  "core_data": {
+    "bank": [
+      {
+        "amount": "25",
+        "charge": "1000",
+        "slot": "0",
+        "id": "995"
+      }
+    ],
+    "equipment": [],
+    "location": "2524,5002,0",
+    "inventory": [
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "0",
+        "id": "1351"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "1",
+        "id": "590"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "2",
+        "id": "303"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "3",
+        "id": "315"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "4",
+        "id": "1925"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "5",
+        "id": "1931"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "6",
+        "id": "2309"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "7",
+        "id": "1265"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "8",
+        "id": "1205"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "9",
+        "id": "1277"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "10",
+        "id": "1171"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "11",
+        "id": "841"
+      },
+      {
+        "amount": "25",
+        "charge": "1000",
+        "slot": "12",
+        "id": "882"
+      },
+      {
+        "amount": "25",
+        "charge": "1000",
+        "slot": "13",
+        "id": "556"
+      },
+      {
+        "amount": "15",
+        "charge": "1000",
+        "slot": "14",
+        "id": "558"
+      },
+      {
+        "amount": "6",
+        "charge": "1000",
+        "slot": "15",
+        "id": "555"
+      },
+      {
+        "amount": "4",
+        "charge": "1000",
+        "slot": "16",
+        "id": "557"
+      },
+      {
+        "amount": "2",
+        "charge": "1000",
+        "slot": "17",
+        "id": "559"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "18",
+        "id": "5606"
+      }
+    ]
+  },
+  "playerMonitor": {},
+  "totalEXP": "0.0",
+  "appearance": {
+    "appearance_cache": [
+      {
+        "color": "0",
+        "look": "0"
+      },
+      {
+        "color": "0",
+        "look": "10"
+      },
+      {
+        "color": "0",
+        "look": "18"
+      },
+      {
+        "color": "0",
+        "look": "26"
+      },
+      {
+        "color": "0",
+        "look": "33"
+      },
+      {
+        "color": "0",
+        "look": "36"
+      },
+      {
+        "color": "0",
+        "look": "42"
+      }
+    ],
+    "gender": "0"
+  },
+  "bankPinManager": {
+    "longRecovery": false
+  },
+  "grave_type": "0",
+  "achievementData": [
+    {
+      "completedLevels": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "rewardedLevels": [
+        false,
+        false,
+        false
+      ],
+      "startedLevels": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "completedLevels": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "rewardedLevels": [
+        false,
+        false,
+        false
+      ],
+      "startedLevels": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "completedLevels": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "rewardedLevels": [
+        false,
+        false,
+        false
+      ],
+      "startedLevels": [
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "treasureTrails": {
+    "completedClues": [
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "houseData": {
+    "rooms": [],
+    "location": "0",
+    "style": "0"
+  },
+  "statistics": [
+    {
+      "index": "0",
+      "value": "0"
+    },
+    {
+      "index": "0",
+      "value": "0"
+    },
+    {
+      "index": "0",
+      "value": "0"
+    },
+    {
+      "index": "0",
+      "value": "0"
+    },
+    {
+      "index": "0",
+      "value": "0"
+    },
+    {
+      "index": "0",
+      "value": "0"
+    },
+    {
+      "index": "0",
+      "value": "0"
+    }
+  ]
+}

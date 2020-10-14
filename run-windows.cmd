@@ -75,7 +75,7 @@ PING localhost -n 3 >NUL
 
 
 echo "Starting server-------------------------"
-start /b "" java -Xms1024m -Xmx1024m -cp server.jar core.Server %home%default.xml
+start /b "" java -Xms1024m -Xmx1024m -cp server.jar core.Server %home%\worldprops\default.json
 PING localhost -n 10 >NUL
 
 echo "Starting client-------------------------"
@@ -98,7 +98,6 @@ call START ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messag
 PING localhost -n 4 >NUL
 call %mariadbpath%mysql.exe -uroot -e "CREATE DATABASE global;
 call %mariadbpath%mysql.exe -uroot -e "CREATE DATABASE server;
-call %mariadbpath%mysql.exe -uroot server < "%data%\server.sql"
 call %mariadbpath%mysql.exe -uroot global < "%data%\global.sql"
 echo:
 echo Databases initialized!

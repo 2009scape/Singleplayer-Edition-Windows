@@ -1,0 +1,38 @@
+{
+  "ip_address": "localhost",
+
+  "customization": {
+    "login_theme": "newbie melody",
+
+    "right_click_menu": {
+      "background": {
+        "color": "#0fab00",
+        "opacity": "70"
+      },
+      "title_bar": {
+        "color": "#000000",
+        "opacity": "255",
+        "font_color": "#FFFFFF"
+      },
+      "border": {
+        "color": "#FFFFFF",
+        "opacity": "255"
+      },
+      "styles": {
+        "Presets provide default customizations.": "rs3, classic, or custom. custom allows you to define your own values above. Classic is standard 2009.",
+        "presets": "rs3",
+        "rs3border": true
+      }
+    }
+  },
+
+  "debug": {
+    "item_debug": false,
+    "object_debug": false,
+    "npc_debug": false,
+    "hd_login_region_debug": false,
+    "hd_login_region_debug_verbose": false,
+    "cache_debug": false,
+    "world_map_debug": false
+  }
+}

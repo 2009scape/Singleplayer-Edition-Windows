@@ -15,4 +15,11 @@
 
     <ObjectAction mode="remove" id="20228" x="2537" y="3573" z="0"/>
     <ObjectAction mode="add" id="27663" x="2537" y="3573" z="0" direction="w"/>
+
+
+    <ObjectAction mode="add" id="39237" x="2957" y="3266" z="0" direction="n"/>
+    <ObjectAction mode="add" id="39245" x="2956" y="3270" z="0" direction="se"/>
+    <ObjectAction mode="add" id="39242" x="2955" y="3273" z="0" direction="w"/>
+    <ObjectAction mode="add" id="39241" x="2955" y="3274" z="0" />
+
 </parsing>

@@ -62,7 +62,7 @@ exit
 :run
 cls
 cd %database%
-start /b "" %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%CD%\share\english" --datadir="%CD%\data"
+start /b "Database" %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%CD%\share\english" --datadir="%CD%\data"
 PING localhost -n 6 >NUL
 
 cls
@@ -70,12 +70,12 @@ echo:
 echo Starting 2009scape.
 echo:
 cd %home%
-start /b "" java -Xms1024m -Xmx1024m -jar ms.jar
+start /b "Management Server" java -Xms1024m -Xmx1024m -jar ms.jar
 PING localhost -n 3 >NUL
 
 
 echo "Starting server-------------------------"
-start /b "" java -Xms1024m -Xmx1024m -cp server.jar core.Server %home%\worldprops\default.json
+start "Server - Press CTRL+C to close correctly" java -Xms1024m -Xmx1024m -cp server.jar core.Server %home%\worldprops\default.json
 PING localhost -n 10 >NUL
 
 echo "Starting client-------------------------"

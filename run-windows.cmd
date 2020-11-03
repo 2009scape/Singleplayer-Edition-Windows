@@ -36,16 +36,14 @@ taskkill /F /IM mysqld*
 taskkill /F /IM java*
 cls
 cd %database%
-call START ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%CD%\share\english" --datadir="%CD%\data"
-PING localhost -n 4 >NUL
+call START /min ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%CD%\share\english" --datadir="%CD%\data"
 cls
 SET /p username=Please enter the user to make an admin: 
 call %mariadbpath%mysql.exe -uroot -e "USE global; UPDATE `members` SET `rights` = '2' WHERE `members`.`username` = '%username%';"
-PING localhost -n 3 >NUL
-echo
+echo:
 echo %username% is now an Administrator!
 call %mariadbpath%mysqladmin.exe -uroot shutdown
-echo
+echo:
 pause
 goto start
 
@@ -83,15 +81,13 @@ mkdir %home%..\.runite_rs\runescape
 robocopy data\cache\ %userprofile%\.runite_rs\runescape\ /MIR /IS
 cd %database%
 mkdir data
-call START ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%CD%\share\english" --datadir="%CD%\data"
-PING localhost -n 4 >NUL
+call START /B ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%CD%\share\english" --datadir="%CD%\data"
 call %mariadbpath%mysql.exe -uroot -e "CREATE DATABASE global;
 call %mariadbpath%mysql.exe -uroot -e "CREATE DATABASE server;
 call %mariadbpath%mysql.exe -uroot global < "%data%\global.sql"
 echo:
 echo Databases initialized!
 taskkill /F /IM mysqld*
-pause
 goto start
 
 

@@ -37,9 +37,11 @@ taskkill /f /im java*
 cls
 cd %database%
 call start /min ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%cd%\share\english" --datadir="%cd%\data"
+ping localhost -n 4 > nul
 cls
 set /p username=Please enter the user to make an admin: 
 call %mariadbpath%mysql.exe -uroot -e "USE global; UPDATE `members` SET `rights` = '2' WHERE `members`.`username` = '%username%';"
+ping localhost -n 3 > nul
 echo:
 echo %username% is now an Administrator!
 call %mariadbpath%mysqladmin.exe -uroot shutdown
@@ -59,15 +61,19 @@ exit
 :: Launch Client and Server
 cls
 cd %database%
+echo Starting Database.
 start /min "Database" %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%cd%\share\english" --datadir="%cd%\data"
+ping localhost -n 6 > nul
 cls
 echo:
 echo Starting 2009scape.
 echo:
 cd %home%
 start /min "Management Server" java -Xms1024m -Xmx1024m -jar ms.jar
+ping localhost -n 3 > nul
 start /min "Server - CTRL+C to close" java -Xms1024m -Xmx1024m -cp server.jar core.Server %home%\worldprops\default.json
-start /min "Client - CTRL+C to close" java -Xms1024m -Xmx1024m -jar client.jar
+ping localhost -n 10 > nul
+start /min "" java -Xms1024m -Xmx1024m -jar client.jar
 echo:
 goto start
 
@@ -82,6 +88,7 @@ robocopy data\cache\ %userprofile%\.runite_rs\runescape\ /mir /is > nul 2>&1
 cd %database%
 mkdir data
 call start /b ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%cd%\share\english" --datadir="%cd%\data" > nul 2>&1
+ping localhost -n 4 > nul
 call %mariadbpath%mysql.exe -uroot -e "CREATE DATABASE global;
 call %mariadbpath%mysql.exe -uroot -e "CREATE DATABASE server;
 call %mariadbpath%mysql.exe -uroot global < "%data%\global.sql"

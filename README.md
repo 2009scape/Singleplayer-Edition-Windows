@@ -10,8 +10,8 @@ If you're a developer and you want to take over the Windows Singleplayer Edition
 * 1: Download or clone this repository.
 * 2: After you unpack the .zip (if you just downloaded it) or it finishes cloning (if you cloned it), open up the folder that it created.
 * 3: In this folder there will be a **run-windows.cmd**, execute this to start everything up.
-* 5: You can simply run the game with option 1.
-* 6: When you're done, make sure to use the "exit" option in the menu to properly shut everything down.
+* 4: You can simply run the game with option 1.
+* 5: When you're done, make sure to use the "exit" option in the menu to properly shut everything down.
 
 # Getting Started: Linux
 

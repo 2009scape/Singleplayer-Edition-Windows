@@ -1,9 +1,9 @@
 @echo off
 :: Thanks to the OpenRSC team who I adapted this script from, much love <3
-SET mariadbpath="%~dp0\database\bin\"
-SET data="%~dp0\data\"
-SET database="%~dp0\database\"
-SET home=%~dp0
+set mariadbpath="%~dp0\database\bin\"
+set data="%~dp0\data\"
+set database="%~dp0\database\"
+set home=%~dp0
 
 
 :start
@@ -18,7 +18,7 @@ echo   1. Run the game
 echo   2. Reset the database.
 echo   3. Grant a player admin rights.
 echo   4. Exit.
-SET /P action=Please enter a number choice from above: 
+set /p action=Please enter a number choice from above: 
 echo:
 if /i "%action%"=="1" goto run
 if /i "%action%"=="2" goto reset
@@ -26,19 +26,19 @@ if /i "%action%"=="3" goto role
 if /i "%action%"=="4" goto exit
 echo Error! %action% is not a valid option. Press enter to try again.
 echo:
-SET /P action=""
+set /p action=""
 goto start
 
 
 :role
 :: Grant player admin rights
-taskkill /F /IM mysqld*
-taskkill /F /IM java*
+taskkill /f /im mysqld*
+taskkill /f /im java*
 cls
 cd %database%
-call START /min ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%CD%\share\english" --datadir="%CD%\data"
+call start /min ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%cd%\share\english" --datadir="%cd%\data"
 cls
-SET /p username=Please enter the user to make an admin: 
+set /p username=Please enter the user to make an admin: 
 call %mariadbpath%mysql.exe -uroot -e "USE global; UPDATE `members` SET `rights` = '2' WHERE `members`.`username` = '%username%';"
 echo:
 echo %username% is now an Administrator!
@@ -50,8 +50,8 @@ goto start
 
 :exit
 :: Shuts down existing processes
-taskkill /F /IM Java*
-taskkill /F /IM mysqld*
+taskkill /f /im Java*
+taskkill /f /im mysqld*
 exit
 
 
@@ -59,7 +59,7 @@ exit
 :: Launch Client and Server
 cls
 cd %database%
-start /min "Database" %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%CD%\share\english" --datadir="%CD%\data"
+start /min "Database" %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%cd%\share\english" --datadir="%cd%\data"
 cls
 echo:
 echo Starting 2009scape.
@@ -74,34 +74,34 @@ goto start
 
 :initDB
 :: Setup mysql tables
-taskkill /F /IM Java*
-taskkill /F /IM mysqld*
+taskkill /f /im Java*
+taskkill /f /im mysqld*
 cd %home%
 mkdir %home%..\.runite_rs\runescape
-robocopy data\cache\ %userprofile%\.runite_rs\runescape\ /MIR /IS
+robocopy data\cache\ %userprofile%\.runite_rs\runescape\ /mir /is > nul 2>&1
 cd %database%
 mkdir data
-call START /B ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%CD%\share\english" --datadir="%CD%\data"
+call start /b ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%cd%\share\english" --datadir="%cd%\data" > nul 2>&1
 call %mariadbpath%mysql.exe -uroot -e "CREATE DATABASE global;
 call %mariadbpath%mysql.exe -uroot -e "CREATE DATABASE server;
 call %mariadbpath%mysql.exe -uroot global < "%data%\global.sql"
 echo:
 echo Databases initialized!
-taskkill /F /IM mysqld*
+taskkill /f /im mysqld*
 goto start
 
 
 :reset
 :: Confirmation menu for reset
-taskkill /F /IM Java*
-taskkill /F /IM mysqld*
+taskkill /f /im Java*
+taskkill /f /im mysqld*
 cls
 echo:
 echo Are you ABSOLUTELY SURE that you want to reset all game databases?
 echo:
 echo To confirm the database reset, type yes and press enter.
 echo:
-SET /P confirmwipe=""
+set /p confirmwipe=""
 echo:
 if /i "%confirmwipe%"=="yes" goto wipe
 echo Error! %confirmwipe% is not a valid option.

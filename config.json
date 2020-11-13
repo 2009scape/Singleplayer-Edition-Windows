@@ -30,7 +30,7 @@
     },
     "rendering_options": {
       "technical": {
-        "render_distance_increase": false
+        "render_distance_increase": true
       },
       "skybox": {
         "skybox_color" : "Coming in a future update..."

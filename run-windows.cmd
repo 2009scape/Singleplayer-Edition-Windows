@@ -5,6 +5,38 @@ set data="%~dp0\data\"
 set database="%~dp0\database\"
 set home=%~dp0
 
+:CHECK_JAVA
+java -version 1>nul 2>nul || (
+   echo ERROR: Java not installed!
+   GOTO OPENJDK
+)
+for /f tokens^=2-5^ delims^=.-_^" %%j in ('java -fullversion 2^>^&1') do set "jver=%%j%%k%%l%%m"
+
+if %jver% LSS 180261 (
+  echo Current Java version is outdated. Java 8 Update 261 is the minimum.
+  GOTO JAVA_VERSION_ERROR
+)
+
+if %jver% GTR 190000 (
+  echo Current Java version is not Java 8.
+  GOTO JAVA_VERSION_ERROR
+)
+
+GOTO start
+
+:JAVA_VERSION_ERROR
+echo.
+echo Expected min version:
+echo openjdk full version "1.8.0_261-b12"
+echo.
+echo Current Java install:
+java -fullversion
+echo.
+
+:OPENJDK
+echo Opening OpenJDK 8 download page . . .
+start https://adoptopenjdk.net/?variant=openjdk8^&jvmVariant=hotspot
+pause
 
 :start
 :: Initial menu displayed to the user

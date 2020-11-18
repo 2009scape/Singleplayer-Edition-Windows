@@ -151,7 +151,6 @@ goto start
 :wipe
 :: Delete database and re-init
 cls
-cd %database%
-rm -fr data
-mkdir data
+rmdir /S /Q %database%data
+mkdir %database%data
 goto initDB

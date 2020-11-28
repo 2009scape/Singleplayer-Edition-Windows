@@ -84573,7 +84573,7 @@
     {
       "id": "9478",
       "name": "Half made batta",
-      "examine": "This XX batta needs baking (and garnishing with YY).",
+      "examine": "This cheese & tomato batta needs baking (and garnishing with equa leaves).",
       "high_alchemy": "1",
       "shop_price": "1",
       "archery_ticket_price": "0",
@@ -84582,7 +84582,7 @@
     {
       "id": "9479",
       "name": "Unfinished batta",
-      "examine": "This XX batta needs garnishing with YY.",
+      "examine": "This cheese & tomato batta needs garnishing with equa leaves.",
       "high_alchemy": "1",
       "shop_price": "1",
       "archery_ticket_price": "0",
@@ -84591,7 +84591,7 @@
     {
       "id": "9480",
       "name": "Half made batta",
-      "examine": "This XX batta needs baking (and garnishing with YY).",
+      "examine": "This fruit batta needs baking (and garnishing with gnome spices).",
       "high_alchemy": "1",
       "shop_price": "1",
       "archery_ticket_price": "0",
@@ -84600,7 +84600,7 @@
     {
       "id": "9481",
       "name": "Unfinished batta",
-      "examine": "This XX batta needs garnishing with YY.",
+      "examine": "This fruit batta needs garnishing with gnome spices.",
       "high_alchemy": "1",
       "shop_price": "1",
       "archery_ticket_price": "0",
@@ -84609,7 +84609,7 @@
     {
       "id": "9482",
       "name": "Half made batta",
-      "examine": "This XX batta needs baking (and garnishing with YY).",
+      "examine": "This toad batta needs baking.",
       "high_alchemy": "1",
       "shop_price": "1",
       "archery_ticket_price": "0",
@@ -84618,7 +84618,7 @@
     {
       "id": "9483",
       "name": "Half made batta",
-      "examine": "This XX batta needs baking (and garnishing with YY).",
+      "examine": "This veggie batta needs baking (and garnishing with equa leaves).",
       "high_alchemy": "1",
       "shop_price": "1",
       "archery_ticket_price": "0",
@@ -84627,7 +84627,7 @@
     {
       "id": "9484",
       "name": "Unfinished batta",
-      "examine": "This XX batta needs garnishing with YY.",
+      "examine": "This veggie batta needs garnishing with equa leaves.",
       "high_alchemy": "1",
       "shop_price": "1",
       "archery_ticket_price": "0",
@@ -84636,7 +84636,7 @@
     {
       "id": "9485",
       "name": "Half made batta",
-      "examine": "This XX batta needs baking (and garnishing with YY).",
+      "examine": "This worm batta needs baking (and garnishing with equa leaves).",
       "high_alchemy": "1",
       "shop_price": "1",
       "archery_ticket_price": "0",
@@ -84645,7 +84645,7 @@
     {
       "id": "9486",
       "name": "Unfinished batta",
-      "examine": "This XX batta needs garnishing with YY.",
+      "examine": "This worm batta needs garnishing with equa leaves.",
       "high_alchemy": "1",
       "shop_price": "1",
       "archery_ticket_price": "0",
@@ -85090,7 +85090,7 @@
     {
       "id": "9558",
       "name": "Half made bowl",
-      "examine": "This unfinished xxx needs baking, and final ingredients",
+      "examine": "This unfinished choco bomb needs baking, and final ingredients",
       "high_alchemy": "1",
       "weight": "0.2",
       "archery_ticket_price": "0",
@@ -85099,7 +85099,7 @@
     {
       "id": "9559",
       "name": "Half made bowl",
-      "examine": "This unfinished xxx needs baking, and final ingredients",
+      "examine": "This unfinished tangled toad legs bowl needs baking, and final ingredients",
       "high_alchemy": "1",
       "weight": "0.2",
       "archery_ticket_price": "0",
@@ -85108,7 +85108,7 @@
     {
       "id": "9560",
       "name": "Unfinished bowl",
-      "examine": "This unfinished XX needs YY.",
+      "examine": "This unfinished choc bomb needs cream and chocolate dust.",
       "high_alchemy": "1",
       "archery_ticket_price": "0",
       "durability": null
@@ -85116,7 +85116,7 @@
     {
       "id": "9561",
       "name": "Half made bowl",
-      "examine": "This unfinished xxx needs baking, and final ingredients",
+      "examine": "This unfinished veggie ball needs baking, and final ingredients",
       "high_alchemy": "1",
       "weight": "0.2",
       "archery_ticket_price": "0",
@@ -85125,7 +85125,7 @@
     {
       "id": "9562",
       "name": "Unfinished bowl",
-      "examine": "This unfinished XX needs YY.",
+      "examine": "This unfinished veggie ball needs equa leaves.",
       "high_alchemy": "1",
       "archery_ticket_price": "0",
       "durability": null
@@ -85133,7 +85133,7 @@
     {
       "id": "9563",
       "name": "Half made bowl",
-      "examine": "This unfinished xxx needs baking, and final ingredients",
+      "examine": "This unfinished worm hole needs baking, and final ingredients",
       "high_alchemy": "1",
       "weight": "0.2",
       "archery_ticket_price": "0",
@@ -85142,7 +85142,7 @@
     {
       "id": "9564",
       "name": "Unfinished bowl",
-      "examine": "This unfinished XX needs YY.",
+      "examine": "This unfinished worm hole needs equa leaves.",
       "high_alchemy": "1",
       "archery_ticket_price": "0",
       "durability": null
@@ -85197,7 +85197,7 @@
     {
       "id": "9577",
       "name": "Half made crunchy",
-      "examine": "This XX crunchy needs baking and garnishing with YY.",
+      "examine": "This choco chip crunchy needs baking and garnishing with chocolate dust.",
       "tradeable": "true",
       "high_alchemy": "1",
       "archery_ticket_price": "0",
@@ -85206,7 +85206,7 @@
     {
       "id": "9578",
       "name": "Unfinished crunchy",
-      "examine": "This XX crunchy needs garnishing with YY.",
+      "examine": "This choco chip crunchy needs garnishing with chocolate dust.",
       "tradeable": "true",
       "high_alchemy": "1",
       "archery_ticket_price": "0",
@@ -85215,7 +85215,7 @@
     {
       "id": "9579",
       "name": "Half made crunchy",
-      "examine": "This XX crunchy needs baking and garnishing with YY.",
+      "examine": "This spicy crunchy needs baking and garnishing with gnome spices.",
       "tradeable": "true",
       "high_alchemy": "1",
       "archery_ticket_price": "0",
@@ -85224,7 +85224,7 @@
     {
       "id": "9580",
       "name": "Unfinished crunchy",
-      "examine": "This XX crunchy needs garnishing with YY.",
+      "examine": "This spicy crunchy needs garnishing with gnome spices.",
       "tradeable": "true",
       "high_alchemy": "1",
       "archery_ticket_price": "0",
@@ -85233,7 +85233,7 @@
     {
       "id": "9581",
       "name": "Half made crunchy",
-      "examine": "This XX crunchy needs baking and garnishing with YY.",
+      "examine": "This toad crunchy needs baking and garnishing with equa leaves.",
       "tradeable": "true",
       "high_alchemy": "1",
       "archery_ticket_price": "0",
@@ -85242,7 +85242,7 @@
     {
       "id": "9582",
       "name": "Unfinished crunchy",
-      "examine": "This XX crunchy needs garnishing with YY.",
+      "examine": "This toad crunchy needs garnishing with equa leaves.",
       "tradeable": "true",
       "high_alchemy": "1",
       "archery_ticket_price": "0",
@@ -85251,7 +85251,7 @@
     {
       "id": "9583",
       "name": "Half made crunchy",
-      "examine": "This XX crunchy needs baking and garnishing with YY.",
+      "examine": "This worm crunchy needs baking and garnishing with gnome spices.",
       "tradeable": "true",
       "high_alchemy": "1",
       "archery_ticket_price": "0",
@@ -85260,7 +85260,7 @@
     {
       "id": "9584",
       "name": "Unfinished crunchy",
-      "examine": "This XX crunchy needs garnishing with YY.",
+      "examine": "This worm crunchy needs garnishing with gnome spices.",
       "tradeable": "true",
       "high_alchemy": "1",
       "archery_ticket_price": "0",

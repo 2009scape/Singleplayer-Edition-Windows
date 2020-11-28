@@ -1,8 +1,8 @@
 @echo off
 :: Thanks to the OpenRSC team who I adapted this script from, much love <3
-set mariadbpath="%~dp0\database\bin\"
-set data="%~dp0\data\"
-set database="%~dp0\database\"
+set mariadbpath=%~dp0\database\bin\
+set data=%~dp0\data\
+set database=%~dp0\database\
 set home=%~dp0
 
 :CHECK_JAVA
@@ -41,7 +41,7 @@ pause
 :start
 :: Initial menu displayed to the user
 cls
-if not exist %database%\data\ goto initDB
+if not exist "%database%\data\" goto initDB
 echo:
 echo What would you like to do?
 echo:
@@ -67,16 +67,16 @@ goto start
 taskkill /f /im mysqld*
 taskkill /f /im java*
 cls
-cd %database%
-call start /min ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%cd%\share\english" --datadir="%cd%\data"
+cd "%database%"
+call start /min "" "%mariadbpath%mysqld.exe" --console --skip-grant-tables --lc-messages-dir="%cd%\share\english" --datadir="%cd%\data"
 ping localhost -n 4 > nul
 cls
 set /p username=Please enter the user to make an admin: 
-call %mariadbpath%mysql.exe -uroot -e "USE global; UPDATE `members` SET `rights` = '2' WHERE `members`.`username` = '%username%';"
+call "%mariadbpath%mysql.exe" -uroot -e "USE global; UPDATE `members` SET `rights` = '2' WHERE `members`.`username` = '%username%';"
 ping localhost -n 3 > nul
 echo:
 echo %username% is now an Administrator!
-call %mariadbpath%mysqladmin.exe -uroot shutdown
+call "%mariadbpath%mysqladmin.exe" -uroot shutdown
 echo:
 pause
 goto start
@@ -92,18 +92,18 @@ exit
 :run
 :: Launch Client and Server
 cls
-cd %database%
+cd "%database%"
 echo Starting Database.
-start /min "Database" %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%cd%\share\english" --datadir="%cd%\data"
+start /min "Database" "%mariadbpath%mysqld.exe" --console --skip-grant-tables --lc-messages-dir="%cd%\share\english" --datadir="%cd%\data"
 ping localhost -n 6 > nul
 cls
 echo:
 echo Starting 2009scape.
 echo:
-cd %home%
+cd "%home%"
 start /min "Management Server" java -Xms1024m -Xmx1024m -jar ms.jar
 ping localhost -n 3 > nul
-start /min "Server - CTRL+C to close" java -Xms1024m -Xmx1024m -cp server.jar core.Server %home%\worldprops\default.json
+start /min "Server - CTRL+C to close" java -Xms1024m -Xmx1024m -cp server.jar core.Server "%home%\worldprops\default.json"
 ping localhost -n 10 > nul
 start /min "" java -Xms1024m -Xmx1024m -jar client.jar
 echo:
@@ -114,16 +114,16 @@ goto start
 :: Setup mysql tables
 taskkill /f /im Java*
 taskkill /f /im mysqld*
-cd %home%
-mkdir %home%..\.runite_rs\runescape
-robocopy data\cache\ %userprofile%\.runite_rs\runescape\ /mir /is > nul 2>&1
-cd %database%
+cd "%home%"
+mkdir "%home%..\.runite_rs\runescape"
+robocopy data\cache\ "%userprofile%\.runite_rs\runescape\" /mir /is > nul 2>&1
+cd "%database%"
 mkdir data
-call start /b ""  %mariadbpath%mysqld.exe --console --skip-grant-tables --lc-messages-dir="%cd%\share\english" --datadir="%cd%\data" > nul 2>&1
+call start /b ""  "%mariadbpath%mysqld.exe" --console --skip-grant-tables --lc-messages-dir="%cd%\share\english" --datadir="%cd%\data" > nul 2>&1
 ping localhost -n 4 > nul
-call %mariadbpath%mysql.exe -uroot -e "CREATE DATABASE global;
-call %mariadbpath%mysql.exe -uroot -e "CREATE DATABASE server;
-call %mariadbpath%mysql.exe -uroot global < "%data%\global.sql"
+call "%mariadbpath%mysql.exe" -uroot -e "CREATE DATABASE global;
+call "%mariadbpath%mysql.exe" -uroot -e "CREATE DATABASE server;
+call "%mariadbpath%mysql.exe" -uroot global < "%data%\global.sql"
 echo:
 echo Databases initialized!
 taskkill /f /im mysqld*
@@ -151,6 +151,6 @@ goto start
 :wipe
 :: Delete database and re-init
 cls
-rmdir /S /Q %database%data
-mkdir %database%data
+rmdir /S /Q "%database%data"
+mkdir "%database%data"
 goto initDB

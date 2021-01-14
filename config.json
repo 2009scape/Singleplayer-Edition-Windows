@@ -25,7 +25,7 @@
       "styles": {
         "Presets provide default customizations.": "rs3, classic, or custom. custom allows you to define your own values above. Classic is standard 2009.",
         "presets": "classic",
-        "rs3border": true
+        "rs3border": false
       }
     },
     "rendering_options": {

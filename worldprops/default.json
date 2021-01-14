@@ -21,6 +21,7 @@
   },
 
   "ServerSettings": {
+    "writeLogs": true,
     "max_players": "2000",
     "max_npcs": "32000",
     "new_player_location": "2524,5002,0",
@@ -35,7 +36,7 @@
     "object_parser_path": "./data/ObjectParser.xml",
     "scripts_path": "scripts/",
     "dialogue_scripts_path": "scripts/dialogue/",
-    "logs_path": "data/logs/",
+    "logs_path": "data/logs",
     "bot_data_path": "data/botdata/",
     "database_name": "global",
     "database_username": "root",

@@ -1068,6 +1068,12 @@
     "borders": "{1792,4352,1855,4415}-{1920,4352,1983,4415}"
   },
   {
+    "id": "220",
+    "name": "Island of the Trolls",
+    "indexId": "441",
+    "borders": "{2304,3842,2428,3901}"
+  },
+  {
     "id": "241",
     "name": "Stagnant",
     "indexId": "193",
@@ -1245,6 +1251,12 @@
     "id": "272",
     "name": "Alternative Root",
     "indexId": "221",
+    "borders": ""
+  },
+  {
+    "id": "273",
+    "name": "Easter Jig",
+    "indexId": "475",
     "borders": ""
   },
   {
@@ -2248,5 +2260,23 @@
     "name": "Too Many Cooks...",
     "indexId": "398",
     "borders": "{2944,9856,3007,9919}"
+  },
+  {
+    "id": "222",
+    "name": "Major Miner",
+    "indexId": "437",
+    "borders": "{2403,10186,2409,10192}"
+  },
+  {
+    "id": "223",
+    "name": "Norse Code",
+    "indexId": "439",
+    "borders": "{2404,3797,2421,3820}"
+  },
+  {
+    "id": "225",
+    "name": "Volcanic Vikings",
+    "indexId": "440",
+    "borders": "{2304,3785,2635,3818}"
   }
 ]

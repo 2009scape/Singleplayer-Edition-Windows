@@ -19,7 +19,7 @@ import java.util.ArrayList;
 @ScriptManifest(name = "Fetch data10", author = "b4", version = 2, logo = "", info = "info")
 public class Reader extends Script {
 
-    private ArrayList<String> names = new ArrayList<>();
+    private ArrayList<String> names = new ArrayList<>(20);
 
     @Override
     public int onLoop() {

@@ -1,0 +1,15 @@
+{
+  "DatabaseInformation": {
+  "database_name": "global",
+  "database_username": "root",
+  "database_password": "",
+  "database_host": "127.0.0.1",
+  "database_port": "3306"
+  },
+
+  "WorldTechnicalInformation": {
+    "world_limit": "10",
+    "worldhop_delay": "20000"
+  },
+  "secret_key": "2009scape_development"
+}

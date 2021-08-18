@@ -3,6 +3,7 @@
   "ip_management" : "localhost",
   "server_port": 43594,
   "wl_port": 5555,
+  "js5_port": 43593,
   "world": 1,
 
   "customization": {

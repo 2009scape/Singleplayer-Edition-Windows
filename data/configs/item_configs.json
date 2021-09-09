@@ -31513,7 +31513,7 @@
     "id": "2956"
   },
   {
-    "examine": "A druid pouch.",
+    "examine": "An empty druid pouch.",
     "durability": null,
     "name": "Druid pouch",
     "low_alchemy": "2",
@@ -45730,7 +45730,7 @@
     "id": "4699"
   },
   {
-    "examine": "Unfuelled: You need to add lamp oil before you can use it. Unlit: A bullseye lantern with a sapphire for a lens. Lit: A lantern casting a bright blue beam.",
+    "examine": "You need to add lamp oil before you can use it.",
     "durability": null,
     "name": "Sapphire lantern",
     "low_alchemy": "240",
@@ -45740,7 +45740,7 @@
     "id": "4700"
   },
   {
-    "examine": "Unfuelled: You need to add lamp oil before you can use it. Unlit: A bullseye lantern with a sapphire for a lens. Lit: A lantern casting a bright blue beam.",
+    "examine": "A bullseye lantern with a sapphire for a lens.",
     "durability": null,
     "name": "Sapphire lantern",
     "low_alchemy": "240",
@@ -45750,7 +45750,7 @@
     "id": "4701"
   },
   {
-    "examine": "Unfuelled: You need to add lamp oil before you can use it. Unlit: A bullseye lantern with a sapphire for a lens. Lit: A lantern casting a bright blue beam.",
+    "examine": "A lantern casting a bright blue beam.",
     "durability": null,
     "name": "Sapphire lantern",
     "low_alchemy": "240",
@@ -46116,7 +46116,7 @@
   {
     "requirements": "{1,70}",
     "ge_buy_limit": "10",
-    "examine": "\tGuthan the Infested's platebody armour.",
+    "examine": "Guthan the Infested's platebody armour.",
     "durability": null,
     "low_alchemy": "112000",
     "high_alchemy": "168000",
@@ -46371,7 +46371,7 @@
   {
     "requirements": "{1,70}",
     "ge_buy_limit": "10",
-    "examine": "\tTorag the Corrupted's platebody armour.",
+    "examine": "Torag the Corrupted's platebody armour.",
     "durability": null,
     "low_alchemy": "112000",
     "high_alchemy": "168000",
@@ -48202,7 +48202,7 @@
   },
   {
     "requirements": "{1,70}",
-    "examine": "\tGuthan the Infested's platebody armour.",
+    "examine": "Guthan the Infested's platebody armour.",
     "durability": null,
     "low_alchemy": "112000",
     "high_alchemy": "168000",
@@ -48218,7 +48218,7 @@
   },
   {
     "requirements": "{1,70}",
-    "examine": "\tGuthan the Infested's platebody armour.",
+    "examine": "Guthan the Infested's platebody armour.",
     "durability": null,
     "low_alchemy": "112000",
     "high_alchemy": "168000",
@@ -48234,7 +48234,7 @@
   },
   {
     "requirements": "{1,70}",
-    "examine": "\tGuthan the Infested's platebody armour.",
+    "examine": "Guthan the Infested's platebody armour.",
     "durability": null,
     "low_alchemy": "112000",
     "high_alchemy": "168000",
@@ -48250,7 +48250,7 @@
   },
   {
     "requirements": "{1,70}",
-    "examine": "\tGuthan the Infested's platebody armour.",
+    "examine": "Guthan the Infested's platebody armour.",
     "durability": null,
     "low_alchemy": "112000",
     "high_alchemy": "168000",
@@ -48267,7 +48267,7 @@
   {
     "requirements": "{1,70}",
     "ge_buy_limit": "10",
-    "examine": "\tGuthan the Infested's platebody armour.",
+    "examine": "Guthan the Infested's platebody armour.",
     "durability": null,
     "low_alchemy": "112000",
     "high_alchemy": "168000",
@@ -49000,7 +49000,7 @@
   },
   {
     "requirements": "{1,70}",
-    "examine": "\tTorag the Corrupted's platebody armour.",
+    "examine": "Torag the Corrupted's platebody armour.",
     "durability": null,
     "low_alchemy": "112000",
     "high_alchemy": "168000",
@@ -49016,7 +49016,7 @@
   },
   {
     "requirements": "{1,70}",
-    "examine": "\tTorag the Corrupted's platebody armour.",
+    "examine": "Torag the Corrupted's platebody armour.",
     "durability": null,
     "low_alchemy": "112000",
     "high_alchemy": "168000",
@@ -49032,7 +49032,7 @@
   },
   {
     "requirements": "{1,70}",
-    "examine": "\tTorag the Corrupted's platebody armour.",
+    "examine": "Torag the Corrupted's platebody armour.",
     "durability": null,
     "low_alchemy": "112000",
     "high_alchemy": "168000",
@@ -49048,7 +49048,7 @@
   },
   {
     "requirements": "{1,70}",
-    "examine": "\tTorag the Corrupted's platebody armour.",
+    "examine": "Torag the Corrupted's platebody armour.",
     "durability": null,
     "low_alchemy": "112000",
     "high_alchemy": "168000",
@@ -49065,7 +49065,7 @@
   {
     "requirements": "{1,70}",
     "ge_buy_limit": "10",
-    "examine": "\tTorag the Corrupted's platebody armour.",
+    "examine": "Torag the Corrupted's platebody armour.",
     "durability": null,
     "low_alchemy": "112000",
     "high_alchemy": "168000",
@@ -68784,7 +68784,7 @@
   {
     "shop_price": "54",
     "ge_buy_limit": "1000",
-    "examine": "\tStill needs two more ingredients.",
+    "examine": "Still needs two more ingredients.",
     "grand_exchange_price": "77",
     "durability": null,
     "name": "Part mud pie",
@@ -110850,21 +110850,21 @@
     "id": "12184"
   },
   {
-    "examine": "Chick: A fluffy chick.Bird: Lovely blue plumage.Owl: A fantastic saradomin owl.",
+    "examine": "A fantastic saradomin owl.",
     "durability": null,
     "name": "Saradomin owl",
     "archery_ticket_price": "0",
     "id": "12185"
   },
   {
-    "examine": "Chick: A fluffy chick.Bird: Lovely red plumage.Hawk: A stately zamorak hawk.",
+    "examine": "A stately zamorak hawk.",
     "durability": null,
     "name": "Zamorak hawk",
     "archery_ticket_price": "0",
     "id": "12186"
   },
   {
-    "examine": "Chick: A fluffy chick.Bird: Lovely green plumage.Raptor: An impressive Guthix raptor.",
+    "examine": "An impressive Guthix raptor.",
     "durability": null,
     "name": "Guthix raptor",
     "archery_ticket_price": "0",
@@ -112506,63 +112506,63 @@
     "id": "12502"
   },
   {
-    "examine": "Chick: A fluffy chick.Bird: Lovely blue plumage.Owl: A fantastic saradomin owl.",
+    "examine": "A fluffy chick.",
     "durability": null,
     "name": "Saradomin chick",
     "archery_ticket_price": "0",
     "id": "12503"
   },
   {
-    "examine": "Chick: A fluffy chick.Bird: Lovely blue plumage.Owl: A fantastic saradomin owl.",
+    "examine": "Lovely blue plumage.",
     "durability": null,
     "name": "Saradomin bird",
     "archery_ticket_price": "0",
     "id": "12504"
   },
   {
-    "examine": "Chick: A fluffy chick.Bird: Lovely blue plumage.Owl: A fantastic saradomin owl.",
+    "examine": "A fantastic saradomin owl.",
     "durability": null,
     "name": "Saradomin owl",
     "archery_ticket_price": "0",
     "id": "12505"
   },
   {
-    "examine": "Chick: A fluffy chick.Bird: Lovely red plumage.Hawk: A stately zamorak hawk.",
+    "examine": "A fluffy chick.",
     "durability": null,
     "name": "Zamorak chick",
     "archery_ticket_price": "0",
     "id": "12506"
   },
   {
-    "examine": "Chick: A fluffy chick.Bird: Lovely red plumage.Hawk: A stately zamorak hawk.",
+    "examine": "Lovely red plumage.",
     "durability": null,
     "name": "Zamorak bird",
     "archery_ticket_price": "0",
     "id": "12507"
   },
   {
-    "examine": "Chick: A fluffy chick.Bird: Lovely red plumage.Hawk: A stately zamorak hawk.",
+    "examine": "A stately zamorak hawk.",
     "durability": null,
     "name": "Zamorak hawk",
     "archery_ticket_price": "0",
     "id": "12508"
   },
   {
-    "examine": "Chick: A fluffy chick.Bird: Lovely green plumage.Raptor: An impressive Guthix raptor.",
+    "examine": "A fluffy chick.",
     "durability": null,
     "name": "Guthix chick",
     "archery_ticket_price": "0",
     "id": "12509"
   },
   {
-    "examine": "Chick: A fluffy chick.Bird: Lovely green plumage.Raptor: An impressive Guthix raptor.",
+    "examine": "Lovely green plumage.",
     "durability": null,
     "name": "Guthix bird",
     "archery_ticket_price": "0",
     "id": "12510"
   },
   {
-    "examine": "Chick: A fluffy chick.Bird: Lovely green plumage.Raptor: An impressive Guthix raptor.",
+    "examine": "An impressive Guthix raptor.",
     "durability": null,
     "name": "Guthix raptor",
     "archery_ticket_price": "0",

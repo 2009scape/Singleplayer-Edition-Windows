@@ -16,7 +16,7 @@
     "enable_bots": true,
     "autostock_ge": true,
     "allow_token_purchase": true,
-    "max_adv_bots": "0",
+    "max_adv_bots": "50",
     "message_of_the_week_identifier": "0",
     "message_of_the_week_text": "Welcome to 2009Scape! <br><col=11ff00>N</col><col=ecff00>o</col><col=ff8300>w</col <col=ff0000>i</col><col=ff00d4>n</col> <col=6100ff>T</col><col=000fff>e</col><col=00f0ff>c</col><col=00ff59>h</col><col=93ff00>n</col><col=ff9e00>i</col><col=ff0000>c</col><col=ff00d1>o</col><col=2700ff>l</col><col=00f7ff>o</col><col=00ff0c>r</col><col=ff0000>!</col>"
   },

@@ -653,7 +653,7 @@
   },
   {
     "examine": "I hope no-one's home...",
-    "ids": "398"
+    "ids": "398,32290"
   },
   {
     "examine": "I see dead people.",
@@ -2821,7 +2821,7 @@
   },
   {
     "examine": "I shudder to think what has taken place here.",
-    "ids": "1876,1877,1878,1879,1880,1881,1882,1883,1884,1885,1886,1887,1888,1889,1890,1891,1892,1893,1894,1895"
+    "ids": "1876,1877,1878,1879,1880,1881,1882,1883,1884,1885,1886,1887,1888,1889,1890,1891,1892,1893,1894,1895,32289"
   },
   {
     "examine": "This hasn't seen a duster for a while.",
@@ -5584,7 +5584,7 @@
     "ids": "3514,3515"
   },
   {
-    "examine": "A dark dank entrance to below..",
+    "examine": "A dark dank entrance to below.",
     "ids": "3516"
   },
   {
@@ -17025,7 +17025,7 @@
   },
   {
     "examine": "Better not eat them!",
-    "ids": "12094,12095,12096,12097,12098,12099"
+    "ids": "12094,12095,12096,12097,12098,12099,14121"
   },
   {
     "examine": "A hot furnace.",
@@ -20389,7 +20389,7 @@
   },
   {
     "examine": "Contains traces of summoning energy.",
-    "ids": "29945"
+    "ids": "29945,29947"
   },
   {
     "examine": "I wonder what this spooky contains.",
@@ -20413,7 +20413,7 @@
   },
   {
     "examine": "Storage for all needs.",
-    "ids": "40047"
+    "ids": "40047,30648,30649,30650"
   },
   {
     "examine": "A wooden barrel for storage.",
@@ -20493,7 +20493,7 @@
   },
   {
     "examine": "I can climb down this.",
-    "ids": "40027"
+    "ids": "40027,20987"
   },
   {
     "examine": "Storage for cookery items.",
@@ -20530,5 +20530,73 @@
   {
     "examine": "Looking good!",
     "ids": "40065"
+  },
+  {
+    "examine": "It looks slightly different from the rest.",
+    "ids": "30532"
+  },
+  {
+    "examine": "'Here lies...' is all I can read.",
+    "ids": "30671,30672"
+  },
+  {
+    "examine": "The inscription is worn away and unreadable.",
+    "ids": "30667,30669"
+  },
+  {
+    "examine": "Whoever bought this must have really cared for the inhabitant.",
+    "ids": "30668"
+  },
+  {
+    "examine": "Make a wish.",
+    "ids": "28715"
+  },
+  {
+    "examine": "Contains no summoning energy.",
+    "ids": "28720,28721"
+  },
+  {
+    "examine": "Glowing with barely-suppressed energies.",
+    "ids": "28719"
+  },
+  {
+    "examine": "Looks kind of like a man made of metal.",
+    "ids": "32292"
+  },
+  {
+    "examine": "Technically a bed.",
+    "ids": "32031"
+  },
+  {
+    "examine": "A really bad portrait of the King.",
+    "ids": "32326"
+  },
+  {
+    "examine": "A tatty old standard.",
+    "ids": "32295"
+  },
+  {
+    "examine": "I can climb this.",
+    "ids": "32015"
+  },
+  {
+    "examine": "An old crate for storage.",
+    "ids": "31137,31139,31140"
+  },
+  {
+    "examine": "A wooden barrel for storage.",
+    "ids": "31136"
+  },
+  {
+    "examine": "A home for baby creatures.",
+    "ids": "32312"
+  },
+  {
+    "examine": "Must have been laid by a huge bird.",
+    "ids": "32313"
+  },
+  {
+    "examine": "Stops bits of building falling on me.",
+    "ids": "37451"
   }
 ]

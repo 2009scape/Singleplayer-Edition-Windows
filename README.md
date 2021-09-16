@@ -1,8 +1,5 @@
-# NOTE: Windows Singleplayer has been postponed indefinitely.
-
-Windows has too many issues both as an operating system and a development platform. If you're a Windows user, we highly recommend you either switch to a real operating system, or check out our live game here: https://2009scape.org/
-
-If you're a developer and you want to take over the Windows Singleplayer Edition, feel free to send PRs and we'll take down this notice. As it stands right now though, no one wants to maintain it and it's too unstable to keep releasing.
+# NOTE: Windows Singleplayer is Maintained by Volunteers.
+This subproject is maintained exclusively by volunteers, and will not receive official support from the core 2009scape team. If you do have issues, however, feel free to make an issue in this repository and hopefully a volunteer will be able to help you out :). 
 
 
 # Getting Started: Windows

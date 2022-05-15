@@ -89,7 +89,7 @@
   },
   {
     "examine": "I can see fish swimming in the water.",
-    "ids": "42"
+    "ids": "42,326"
   },
   {
     "examine": "It seems to sparkle.",
@@ -281,7 +281,7 @@
   },
   {
     "examine": "A large double door.",
-    "ids": "134,135"
+    "ids": "134,135,1516,1517,1518,1519,1520,1521,1522,1523,1524,1525,4423,4424,4425,4426,4427,4428,4429,4430,4629,4630,4631,4632,4633,4634,4635,4963,4964,12349,12350,12446,12447,12448,12449,13094,13095,13096,13097,13098,13099,31814,31815,31816"
   },
   {
     "examine": "The door is closed.",
@@ -297,7 +297,7 @@
   },
   {
     "examine": "A pipe I can squeeze through.",
-    "ids": "154"
+    "ids": "154,2287,2288,2290,2291,2292,2293,3236,3237,4058,5099,5100,5101,5102,5152,5153,5154,5155,9293,9295,10063,10064,10065,10066,10067,10068,10069,10070,10071,10072,10073,10074,10075,29370"
   },
   {
     "examine": "Lots of books.",
@@ -377,7 +377,7 @@
   },
   {
     "examine": "Posh candlesticks.",
-    "ids": "203,204"
+    "ids": "203,204,32287,40074"
   },
   {
     "examine": "Scary lighting apparatus.",
@@ -500,7 +500,7 @@
     "ids": "306"
   },
   {
-    "examine": "One horse power, wooden suspension. A beauty.",
+    "examine": "One horsepower; wooden suspension: a beauty.",
     "ids": "307,308"
   },
   {
@@ -577,7 +577,7 @@
   },
   {
     "examine": "It's got ale in it.",
-    "ids": "364"
+    "ids": "364,32063"
   },
   {
     "examine": "These may have something in them.",
@@ -653,11 +653,11 @@
   },
   {
     "examine": "I hope no-one's home...",
-    "ids": "398,32290"
+    "ids": "398,26931,26935,26937,26939,32290"
   },
   {
     "examine": "I see dead people.",
-    "ids": "399"
+    "ids": "399,36737,32291"
   },
   {
     "examine": "A small simple gravestone.",
@@ -1129,7 +1129,7 @@
   },
   {
     "examine": "Makes you taller.",
-    "ids": "647"
+    "ids": "647,29314"
   },
   {
     "examine": "A bit large for a bracelet!",
@@ -1153,39 +1153,23 @@
   },
   {
     "examine": "Now that's what I call slimline!",
-    "ids": "660"
+    "ids": "660,664,3797,3971,5122,7206,29340"
   },
   {
     "examine": "He looks very relaxed.",
-    "ids": "661"
+    "ids": "661,665,3798,3972,5123,7207,29341"
   },
   {
     "examine": "Now he's just too thin.",
-    "ids": "662"
+    "ids": "662,666,3799,3973,5124,7208,7209,7210,7211,7212,7213,7214,7215,7216,7217,7218,29342"
   },
   {
     "examine": "He hasn't eaten in a long time.",
-    "ids": "663"
-  },
-  {
-    "examine": "Now that's what I call slimline!",
-    "ids": "664"
-  },
-  {
-    "examine": "He looks very relaxed.",
-    "ids": "665"
-  },
-  {
-    "examine": "Now he's just too thin.",
-    "ids": "666"
-  },
-  {
-    "examine": "He hasn't eaten in a long time.",
-    "ids": "667"
+    "ids": "663,667,3974,5125,29343"
   },
   {
     "examine": "Disturbing but tidy.",
-    "ids": "668,669,670"
+    "ids": "658,668,669,670,3969,29347"
   },
   {
     "examine": "No cats were harmed in the making of this device.",
@@ -1261,7 +1245,7 @@
   },
   {
     "examine": "Dead animal head. Lovely.",
-    "ids": "697"
+    "ids": "697,736,29344"
   },
   {
     "examine": "Must have been laid by a huge bird.",
@@ -1273,11 +1257,11 @@
   },
   {
     "examine": "Spooky!",
-    "ids": "700,701"
+    "ids": "700,701,2614,4048,4049,4050,29345"
   },
   {
     "examine": "A dog's idea of heaven.",
-    "ids": "702,703,704,705,706"
+    "ids": "702,703,704,705,706,29346"
   },
   {
     "examine": "Ding-Dong!",
@@ -1313,7 +1297,7 @@
   },
   {
     "examine": "A crude torch stuck in the ground.",
-    "ids": "724,725,726"
+    "ids": "724,725,726,25200"
   },
   {
     "examine": "A fissure in the cave wall.",
@@ -1330,10 +1314,6 @@
   {
     "examine": "The noxious liquid bubbles horribly.",
     "ids": "735"
-  },
-  {
-    "examine": "Dead animal head. Lovely.",
-    "ids": "736"
   },
   {
     "examine": "Whatever it was I'm glad it's not alive.",
@@ -1381,11 +1361,11 @@
   },
   {
     "examine": "Not suitable for children. Aim away from face.",
-    "ids": "821"
+    "ids": "821,36780"
   },
   {
     "examine": "Big heavy metal balls.",
-    "ids": "822"
+    "ids": "822,36790"
   },
   {
     "examine": "The easiest opponent I'll ever fight.",
@@ -1393,7 +1373,7 @@
   },
   {
     "examine": "A wooden defensive structure.",
-    "ids": "824,825,826,827,828"
+    "ids": "824,825,826,827,828,36928"
   },
   {
     "examine": "For private use only!",
@@ -1497,7 +1477,7 @@
   },
   {
     "examine": "Ideal for washing things in.",
-    "ids": "873,874"
+    "ids": "873,874,4063,36971"
   },
   {
     "examine": "Wash here.",
@@ -1509,7 +1489,7 @@
   },
   {
     "examine": "Everyone needs a water feature.",
-    "ids": "879"
+    "ids": "879,28682"
   },
   {
     "examine": "A beautiful water feature.",
@@ -1733,11 +1713,11 @@
   },
   {
     "examine": "Storage for cookery items.",
-    "ids": "1013"
+    "ids": "1013,32283,40055"
   },
   {
     "examine": "Storage for all needs.",
-    "ids": "1014,1015,1016,1017,1018"
+    "ids": "1014,1015,1016,1017,1018,10495,10496,10497,10498,11768,11769,11770,11771,11772,11773,11774,11775,11776,11777,11778,11779,11780,11781,12980,30648,30649,30650,32284,40045,40046,40047"
   },
   {
     "examine": "What kind of sick person keeps a skull on their wall?",
@@ -1773,7 +1753,7 @@
   },
   {
     "examine": "Danger!",
-    "ids": "1032"
+    "ids": "1032,5127,29373"
   },
   {
     "examine": "This tells you which way is which.",
@@ -1865,7 +1845,7 @@
   },
   {
     "examine": "The ideal thing to sit on.",
-    "ids": "1088"
+    "ids": "1088,1115,3801,5345,5614,7385,7386,7387,10491,11489,12885,12886,13582,32032,36830,40039"
   },
   {
     "examine": "Not so good for sitting on.",
@@ -1873,11 +1853,11 @@
   },
   {
     "examine": "A comfortable seat.",
-    "ids": "1090,1091,1092"
+    "ids": "1090,1091,1092,11760,13583,13584,13585,13586,13587,32286"
   },
   {
     "examine": "Good for sitting on.",
-    "ids": "1093,1094,1095"
+    "ids": "1093,1094,1095,1102,5880,10492,12440,12441,12973,32033"
   },
   {
     "examine": "Good for rocking in!",
@@ -1885,15 +1865,11 @@
   },
   {
     "examine": "A kingly seat for a royal behind.",
-    "ids": "1097,1098,1099"
+    "ids": "1097,1098,1099,1105,1108,1109,32285"
   },
   {
     "examine": "The perfect way to sit at the bar.",
     "ids": "1100,1101"
-  },
-  {
-    "examine": "Good for sitting on.",
-    "ids": "1102"
   },
   {
     "examine": "Gnomes sit on these.",
@@ -1904,16 +1880,8 @@
     "ids": "1104"
   },
   {
-    "examine": "A kingly seat for a royal behind.",
-    "ids": "1105"
-  },
-  {
     "examine": "Sit back and relax...",
     "ids": "1106,1107"
-  },
-  {
-    "examine": "A kingly seat for a royal behind.",
-    "ids": "1108,1109"
   },
   {
     "examine": "Used for sitting on.",
@@ -1934,10 +1902,6 @@
   {
     "examine": "Wouldn't like to sit on that for too long...",
     "ids": "1114"
-  },
-  {
-    "examine": "The ideal thing to sit on.",
-    "ids": "1115"
   },
   {
     "examine": "Keeps the neighbours out!",
@@ -2500,10 +2464,6 @@
     "ids": "1506,1507,1508,1509,1510,1511,1512,1513,1514,1515"
   },
   {
-    "examine": "A large double door.",
-    "ids": "1516,1517,1518,1519,1520,1521,1522,1523,1524,1525"
-  },
-  {
     "examine": "The curtain is closed.",
     "ids": "1526,1527,1528"
   },
@@ -2633,7 +2593,7 @@
   },
   {
     "examine": "I can climb up this.",
-    "ids": "1725,36768"
+    "ids": "1725,36768,36771"
   },
   {
     "examine": "I can climb down this.",
@@ -3149,7 +3109,7 @@
   },
   {
     "examine": "A column of elemental power.",
-    "ids": "2150,2151,2152,2153"
+    "ids": "2150,2151,2152,2153,29415"
   },
   {
     "examine": "A wrought iron gate.",
@@ -3264,7 +3224,7 @@
     "ids": "2211"
   },
   {
-    "examine": "It's a sack!",
+    "examine": "Looks like fun.",
     "ids": "2212"
   },
   {
@@ -3273,7 +3233,7 @@
   },
   {
     "examine": "This booth is for private customers only.",
-    "ids": "2214"
+    "ids": "2214,34205"
   },
   {
     "examine": "This booth is closed.",
@@ -3444,16 +3404,8 @@
     "ids": "2284,2285,2286"
   },
   {
-    "examine": "A pipe I can squeeze through.",
-    "ids": "2287,2288"
-  },
-  {
     "examine": "It's hollow...",
     "ids": "2289"
-  },
-  {
-    "examine": "A pipe I can squeeze through.",
-    "ids": "2290,2291,2292,2293"
   },
   {
     "examine": "A slippery log I can walk across.",
@@ -3517,7 +3469,7 @@
   },
   {
     "examine": "I can traverse these.",
-    "ids": "2319,2320,2321"
+    "ids": "2319,2320,2321,12573,12574,12575,29375"
   },
   {
     "examine": "Use this to swing across gaps.",
@@ -4116,10 +4068,6 @@
     "ids": "2613"
   },
   {
-    "examine": "Spooky!",
-    "ids": "2614"
-  },
-  {
     "examine": "Looks comfortable...",
     "ids": "2615"
   },
@@ -4445,7 +4393,7 @@
   },
   {
     "examine": "Ideal for cooking on.",
-    "ids": "2728,2729,2730,2731"
+    "ids": "2728,2729,2730,2731,3039,9682,12102,36973,40110"
   },
   {
     "examine": "Hot!",
@@ -4481,7 +4429,7 @@
   },
   {
     "examine": "A counter made from a stone block.",
-    "ids": "2791,2792"
+    "ids": "2791,2792,2876,3800,29356"
   },
   {
     "examine": "An ogre is selling cakes here.",
@@ -4666,10 +4614,6 @@
   {
     "examine": "I wonder how accurate a representation this is.",
     "ids": "2875"
-  },
-  {
-    "examine": "A counter made from a stone block.",
-    "ids": "2876"
   },
   {
     "examine": "A barrel full of staffs...",
@@ -5032,10 +4976,6 @@
     "ids": "3038"
   },
   {
-    "examine": "Ideal for cooking on.",
-    "ids": "3039"
-  },
-  {
     "examine": "It's closed.",
     "ids": "3040"
   },
@@ -5133,7 +5073,7 @@
   },
   {
     "examine": "A strange crack cuts into the wall.",
-    "ids": "3209,3210,3211,3212"
+    "ids": "3209,3210,3211,3212,29360,29362"
   },
   {
     "examine": "It looks like I can squeeze through here.",
@@ -5202,10 +5142,6 @@
   {
     "examine": "I can open the grill from this side.",
     "ids": "3235"
-  },
-  {
-    "examine": "A pipe I can squeeze through.",
-    "ids": "3236,3237"
   },
   {
     "examine": "Maybe I can cross that.",
@@ -5900,26 +5836,6 @@
     "ids": "3794,3795,3796"
   },
   {
-    "examine": "Now that's what I call slimline!",
-    "ids": "3797"
-  },
-  {
-    "examine": "He looks very relaxed.",
-    "ids": "3798"
-  },
-  {
-    "examine": "Now he's just too thin.",
-    "ids": "3799"
-  },
-  {
-    "examine": "A counter made from a stone block.",
-    "ids": "3800"
-  },
-  {
-    "examine": "The ideal thing to sit on.",
-    "ids": "3801"
-  },
-  {
     "examine": "Not so good for sitting on.",
     "ids": "3802"
   },
@@ -6160,22 +6076,6 @@
     "ids": "3970"
   },
   {
-    "examine": "Now that's what I call slimline!",
-    "ids": "3971"
-  },
-  {
-    "examine": "He looks very relaxed.",
-    "ids": "3972"
-  },
-  {
-    "examine": "Now he's just too thin.",
-    "ids": "3973"
-  },
-  {
-    "examine": "He hasn't eaten in a long time.",
-    "ids": "3974"
-  },
-  {
     "examine": "I don't wanna fall in that!",
     "ids": "3975"
   },
@@ -6292,10 +6192,6 @@
     "ids": "4044,4045,4046,4047"
   },
   {
-    "examine": "Spooky!",
-    "ids": "4048,4049,4050"
-  },
-  {
     "examine": "It doesn't look healthy...",
     "ids": "4051"
   },
@@ -6312,10 +6208,6 @@
     "ids": "4055,4056,4057"
   },
   {
-    "examine": "A pipe I can squeeze through.",
-    "ids": "4058"
-  },
-  {
     "examine": "I can balance on this rope.",
     "ids": "4059"
   },
@@ -6330,10 +6222,6 @@
   {
     "examine": "Strange items are stored here.",
     "ids": "4062"
-  },
-  {
-    "examine": "Ideal for washing things in.",
-    "ids": "4063"
   },
   {
     "examine": "This table has seen better days.",
@@ -6796,7 +6684,7 @@
     "ids": "4351"
   },
   {
-    "examine": "It is a buried Bowl.",
+    "examine": "A half-buried bowl.",
     "ids": "4352,4353,4354,4355,4356,4357,4358,4359,4360,4361,4362,4363,4364,4365"
   },
   {
@@ -6894,10 +6782,6 @@
   {
     "examine": "A spiky barricade.",
     "ids": "4421,4422"
-  },
-  {
-    "examine": "A large double door.",
-    "ids": "4423,4424,4425,4426,4427,4428,4429,4430"
   },
   {
     "examine": "A large broken door.",
@@ -7142,10 +7026,6 @@
   {
     "examine": "They go up.",
     "ids": "4626,4627,4628"
-  },
-  {
-    "examine": "A large double door.",
-    "ids": "4629,4630,4631,4632,4633,4634,4635"
   },
   {
     "examine": "An elf-fashioned door.",
@@ -7852,10 +7732,6 @@
     "ids": "4962"
   },
   {
-    "examine": "A large double door.",
-    "ids": "4963,4964"
-  },
-  {
     "examine": "I can climb down this.",
     "ids": "4965"
   },
@@ -8028,10 +7904,6 @@
     "ids": "5094,5095,5096,5097,5098"
   },
   {
-    "examine": "A pipe I can squeeze through.",
-    "ids": "5099,5100,5101,5102"
-  },
-  {
     "examine": "Thick vines blocking your way.",
     "ids": "5103,5104,5105,5106,5107,5108,5109"
   },
@@ -8052,28 +7924,8 @@
     "ids": "5116,5117,5118,5119,5120,5121"
   },
   {
-    "examine": "Now that's what I call slimline!",
-    "ids": "5122"
-  },
-  {
-    "examine": "He looks very relaxed.",
-    "ids": "5123"
-  },
-  {
-    "examine": "Now he's just too thin.",
-    "ids": "5124"
-  },
-  {
-    "examine": "He hasn't eaten in a long time.",
-    "ids": "5125"
-  },
-  {
     "examine": "A tall wooden door.",
     "ids": "5126"
-  },
-  {
-    "examine": "Danger!",
-    "ids": "5127"
   },
   {
     "examine": "A tall wooden door.",
@@ -8110,10 +7962,6 @@
   {
     "examine": "A goal.",
     "ids": "5146,5147,5148,5149,5150,5151"
-  },
-  {
-    "examine": "A pipe I can squeeze through.",
-    "ids": "5152,5153,5154,5155"
   },
   {
     "examine": "This may be worth opening.",
@@ -8380,10 +8228,6 @@
     "ids": "5333,5334,5335,5336,5337,5338,5339,5340,5341,5342,5343,5344"
   },
   {
-    "examine": "The ideal thing to sit on.",
-    "ids": "5345"
-  },
-  {
     "examine": "This needs dusting before I'll sit on it.",
     "ids": "5346,5347"
   },
@@ -8404,7 +8248,7 @@
     "ids": "5351"
   },
   {
-    "examine": "One horse power, wooden suspension. A beauty.",
+    "examine": "One horsepower; wooden suspension: a beauty.",
     "ids": "5352"
   },
   {
@@ -8577,7 +8421,7 @@
   },
   {
     "examine": "Aggie's cooking something, probably best not to think what...",
-    "ids": "5558"
+    "ids": "5558,9736"
   },
   {
     "examine": "Trinkets and stuff.",
@@ -8692,10 +8536,6 @@
     "ids": "5613"
   },
   {
-    "examine": "The ideal thing to sit on.",
-    "ids": "5614"
-  },
-  {
     "examine": "Sit back and relax...",
     "ids": "5615"
   },
@@ -8737,7 +8577,7 @@
   },
   {
     "examine": "A standard of Lumbridge Castle.",
-    "ids": "5628,5629,5630"
+    "ids": "5628,5629,5630,36925"
   },
   {
     "examine": "Glowing embers.",
@@ -8894,10 +8734,6 @@
   {
     "examine": "Generally used for putting things on.",
     "ids": "5879"
-  },
-  {
-    "examine": "Good for sitting on.",
-    "ids": "5880"
   },
   {
     "examine": "A crude torch stuck in the ground.",
@@ -9089,7 +8925,7 @@
   },
   {
     "examine": "Banking transactions are recorded here.",
-    "ids": "6082"
+    "ids": "6082,37159"
   },
   {
     "examine": "This booth is closed.",
@@ -10500,18 +10336,6 @@
     "ids": "7189,7190,7191,7192,7193,7194,7195,7196,7197,7198,7199,7200,7201,7202,7203,7204,7205"
   },
   {
-    "examine": "Now that's what I call slimline!",
-    "ids": "7206"
-  },
-  {
-    "examine": "He looks very relaxed.",
-    "ids": "7207"
-  },
-  {
-    "examine": "Now he's just too thin.",
-    "ids": "7208,7209,7210,7211,7212,7213,7214,7215,7216,7217,7218"
-  },
-  {
     "examine": "An opening into the crumbling wall.",
     "ids": "7219,7220"
   },
@@ -10790,10 +10614,6 @@
   {
     "examine": "Lets me walk through walls...",
     "ids": "7373,7374,7375,7376,7377,7378,7379,7380,7381,7382,7383,7384"
-  },
-  {
-    "examine": "The ideal thing to sit on.",
-    "ids": "7385,7386,7387"
   },
   {
     "examine": "Sit back and relax...",
@@ -13532,16 +13352,8 @@
     "ids": "9292"
   },
   {
-    "examine": "A pipe I can squeeze through.",
-    "ids": "9293"
-  },
-  {
     "examine": "Funny looking holes that don't look too inviting.",
     "ids": "9294"
-  },
-  {
-    "examine": "A pipe I can squeeze through.",
-    "ids": "9295"
   },
   {
     "examine": "A rocky outcrop.",
@@ -13701,7 +13513,7 @@
   },
   {
     "examine": "Lets you put items into your bank.",
-    "ids": "9398,9399"
+    "ids": "9398,9399,26969,36788"
   },
   {
     "examine": "Sparse weeds.",
@@ -13848,7 +13660,7 @@
     "ids": "9524"
   },
   {
-    "examine": "One horse power, wooden suspension. A beauty.",
+    "examine": "One horsepower; wooden suspension: a beauty.",
     "ids": "9525"
   },
   {
@@ -14032,10 +13844,6 @@
     "ids": "9668,9669,9670,9671,9672,9673,9674,9675,9676,9677,9678,9679,9680,9681"
   },
   {
-    "examine": "Ideal for cooking on.",
-    "ids": "9682"
-  },
-  {
     "examine": "Expels smoke from the range.",
     "ids": "9683"
   },
@@ -14101,7 +13909,7 @@
   },
   {
     "examine": "A rocky outcrop.",
-    "ids": "9708,9709,9710,9711,9712,9713,9714,9715,9716,9717,9718,9719,9720,9721,9722,9723,9724,9725,9726,9727,9728,9729,9730,9731,9732,9733,9734,9735,9736,9737"
+    "ids": "9708,9709,9710,9711,9712,9713,9714,9715,9716,9717,9718,9719,9720,9721,9722,9723,9724,9725,9726,9727,9728,9729,9730,9731,9732,9733,9734,9735,9737"
   },
   {
     "examine": "An old crumbled pillar.",
@@ -14284,10 +14092,6 @@
     "ids": "10062"
   },
   {
-    "examine": "A pipe I can squeeze through.",
-    "ids": "10063,10064,10065,10066,10067,10068,10069,10070,10071,10072,10073,10074,10075"
-  },
-  {
     "examine": "A mat for exercises.",
     "ids": "10076,10077,10078,10079"
   },
@@ -14333,7 +14137,7 @@
   },
   {
     "examine": "Turns milk into other dairy products.",
-    "ids": "10093,10094,10095,10096"
+    "ids": "10093,10094,10095,10096,25270,34800,35931"
   },
   {
     "examine": "Weedy.",
@@ -14940,24 +14744,12 @@
     "ids": "10490"
   },
   {
-    "examine": "The ideal thing to sit on.",
-    "ids": "10491"
-  },
-  {
-    "examine": "Good for sitting on.",
-    "ids": "10492"
-  },
-  {
     "examine": "I can climb this.",
     "ids": "10493"
   },
   {
     "examine": "I can climb down this.",
     "ids": "10494"
-  },
-  {
-    "examine": "Storage for all needs.",
-    "ids": "10495,10496,10497,10498"
   },
   {
     "examine": "A small potted plant.",
@@ -15025,7 +14817,7 @@
   },
   {
     "examine": "This booth is closed.",
-    "ids": "10518,10519,10520"
+    "ids": "10518,10519,10520,34206"
   },
   {
     "examine": "The antique chalice seems to be attached to the wall.",
@@ -16408,10 +16200,6 @@
     "ids": "11488"
   },
   {
-    "examine": "The ideal thing to sit on.",
-    "ids": "11489"
-  },
-  {
     "examine": "Do I dare sit on this?",
     "ids": "11490"
   },
@@ -16481,7 +16269,7 @@
   },
   {
     "examine": "A wooden barrel for storage.",
-    "ids": "11589,11590,11591,11592,11593,11594,11595,11596,11597,11598"
+    "ids": "11589,11590,11591,11592,11593,11594,11595,11596,11597,11598,29333"
   },
   {
     "examine": "A wooden crate.",
@@ -16776,10 +16564,6 @@
     "ids": "11759"
   },
   {
-    "examine": "A comfortable seat.",
-    "ids": "11760"
-  },
-  {
     "examine": "A carving of a figure from the history of RuneScape.",
     "ids": "11761"
   },
@@ -16806,10 +16590,6 @@
   {
     "examine": "Dusty old books.",
     "ids": "11767"
-  },
-  {
-    "examine": "Storage for all needs.",
-    "ids": "11768,11769,11770,11771,11772,11773,11774,11775,11776,11777,11778,11779,11780,11781"
   },
   {
     "examine": "What ancient rites were performed here?",
@@ -17030,10 +16810,6 @@
   {
     "examine": "A hot furnace.",
     "ids": "12100,12101"
-  },
-  {
-    "examine": "Ideal for cooking on.",
-    "ids": "12102"
   },
   {
     "examine": "For storage.",
@@ -17328,10 +17104,6 @@
     "ids": "12348"
   },
   {
-    "examine": "A large double door.",
-    "ids": "12349,12350"
-  },
-  {
     "examine": "Some kind of strange time barrier.",
     "ids": "12351,12352,12353,12354"
   },
@@ -17452,10 +17224,6 @@
     "ids": "12434,12435,12436,12437,12438,12439"
   },
   {
-    "examine": "Good for sitting on.",
-    "ids": "12440,12441"
-  },
-  {
     "examine": "A large wooden box.",
     "ids": "12442"
   },
@@ -17470,10 +17238,6 @@
   {
     "examine": "The door is open.",
     "ids": "12445"
-  },
-  {
-    "examine": "A large double door.",
-    "ids": "12446,12447,12448,12449"
   },
   {
     "examine": "A rough wooden table.",
@@ -17630,10 +17394,6 @@
   {
     "examine": "A terribly tall tropical tree.",
     "ids": "12570,12571,12572"
-  },
-  {
-    "examine": "I can traverse these.",
-    "ids": "12573,12574,12575"
   },
   {
     "examine": "A climbing wall made from skulls.",
@@ -18056,10 +17816,6 @@
     "ids": "12884"
   },
   {
-    "examine": "The ideal thing to sit on.",
-    "ids": "12885,12886"
-  },
-  {
     "examine": "This needs dusting before I'll sit on it.",
     "ids": "12887,12888"
   },
@@ -18148,10 +17904,6 @@
     "ids": "12972"
   },
   {
-    "examine": "Good for sitting on.",
-    "ids": "12973"
-  },
-  {
     "examine": "After working with livestock, why not wash your hands?",
     "ids": "12974,12975,12976"
   },
@@ -18162,10 +17914,6 @@
   {
     "examine": "This chair rocks",
     "ids": "12979"
-  },
-  {
-    "examine": "Storage for all needs.",
-    "ids": "12980"
   },
   {
     "examine": "A stand for hats!",
@@ -18193,7 +17941,7 @@
   },
   {
     "examine": "Perhaps I should search it.",
-    "ids": "13004,13005"
+    "ids": "13004,13005,29399"
   },
   {
     "examine": "A desert door.",
@@ -18202,10 +17950,6 @@
   {
     "examine": "A timber door.",
     "ids": "13015,13016,13017,13018,13019,13020,13021,13022,13023,13024,13025,13026,13027,13028,13029,13030,13031,13032,13033,13034,13035,13036,13037,13038,13039,13040,13041,13042,13043,13044,13045,13046,13047,13048,13049,13050,13051,13052,13053,13054,13055,13056,13057,13058,13059,13060,13061,13062,13063,13064,13065,13066,13067,13068,13069,13070,13071,13072,13073,13074,13075,13076,13077,13078,13079,13080,13081,13082,13083,13084,13085,13086,13087,13088,13089,13090,13091,13092,13093"
-  },
-  {
-    "examine": "A large double door.",
-    "ids": "13094,13095,13096,13097,13098,13099"
   },
   {
     "examine": "A way in to the house.",
@@ -19368,14 +19112,6 @@
     "ids": "13581"
   },
   {
-    "examine": "The ideal thing to sit on.",
-    "ids": "13582"
-  },
-  {
-    "examine": "A comfortable seat.",
-    "ids": "13583,13584,13585,13586,13587"
-  },
-  {
     "examine": "It's an ugly rug, but better than a bare floor.",
     "ids": "13588,13589,13590"
   },
@@ -20297,7 +20033,7 @@
   },
   {
     "examine": "I can climb this.",
-    "ids": "21395"
+    "ids": "21395,29355"
   },
   {
     "examine": "A closed, sturdy metal door.",
@@ -20389,7 +20125,7 @@
   },
   {
     "examine": "Contains traces of summoning energy.",
-    "ids": "29945,29947"
+    "ids": "29939,29943,29944,29945,29947,29951,29952,29953,29954"
   },
   {
     "examine": "I wonder what this spooky contains.",
@@ -20402,18 +20138,6 @@
   {
     "examine": "It really was this big!",
     "ids": "40042"
-  },
-  {
-    "examine": "Storage for all needs.",
-    "ids": "40045"
-  },
-  {
-    "examine": "Storage for all needs.",
-    "ids": "40046"
-  },
-  {
-    "examine": "Storage for all needs.",
-    "ids": "40047,30648,30649,30650"
   },
   {
     "examine": "A wooden barrel for storage.",
@@ -20445,7 +20169,7 @@
   },
   {
     "examine": "I wonder what's inside.",
-    "ids": "40093"
+    "ids": "29400,32010,40093"
   },
   {
     "examine": "Useful for putting things on.",
@@ -20480,10 +20204,6 @@
     "ids": "40050"
   },
   {
-    "examine": "The ideal thing to sit on.",
-    "ids": "40039"
-  },
-  {
     "examine": "A case. With books.",
     "ids": "40033"
   },
@@ -20493,19 +20213,7 @@
   },
   {
     "examine": "I can climb down this.",
-    "ids": "40027,20987"
-  },
-  {
-    "examine": "Storage for cookery items.",
-    "ids": "40055"
-  },
-  {
-    "examine": "Ideal for cooking on.",
-    "ids": "40110"
-  },
-  {
-    "examine": "Posh candlesticks.",
-    "ids": "40074"
+    "ids": "40027,20987,29358"
   },
   {
     "examine": "These open and close!",
@@ -20581,11 +20289,11 @@
   },
   {
     "examine": "An old crate for storage.",
-    "ids": "31137,31139,31140"
+    "ids": "29351,29352,31137,31140"
   },
   {
     "examine": "A wooden barrel for storage.",
-    "ids": "31136"
+    "ids": "31136,36798"
   },
   {
     "examine": "A home for baby creatures.",
@@ -20598,5 +20306,301 @@
   {
     "examine": "Stops bits of building falling on me.",
     "ids": "37451"
+  },
+  {
+    "examine": "I wonder what's under it?",
+    "ids": "26933"
+  },
+  {
+    "examine": "I wonder what's down there?",
+    "ids": "26934,36687"
+  },
+  {
+    "examine": "A strong metal door.",
+    "ids": "29315,29316,29317,29318,29319,29320,29321,29322"
+  },
+  {
+    "examine": "The body of a Dwarf savaged by Goblins.",
+    "ids": "15596"
+  },
+  {
+    "examine": "I don't know art, but I like it!",
+    "ids": "36809"
+  },
+  {
+    "examine": "The wood burning here must be full of salt.",
+    "ids": "14169"
+  },
+  {
+    "examine": "Sturdy looking.",
+    "ids": "21176"
+  },
+  {
+    "examine": "Doesn't look like it'll be sailing again.",
+    "ids": "14173"
+  },
+  {
+    "examine": "Looks a bit damp.",
+    "ids": "14174"
+  },
+  {
+    "examine": "Those druids certainly make the best of natural resources.",
+    "ids": "28588,28589"
+  },
+  {
+    "examine": "Sit back and relax...",
+    "ids": "28636,18488"
+  },
+  {
+    "examine": "One horsepower; wooden suspension: a beauty.",
+    "ids": "34376"
+  },
+  {
+    "examine": "I don't even want to think about what did that...",
+    "ids": "32071"
+  },
+  {
+    "examine": "It's a door.",
+    "ids": "31838"
+  },
+  {
+    "examine": "Wooden crates for storage.",
+    "ids": "31138,31139"
+  },
+  {
+    "examine": "These may have something in them.",
+    "ids": "32049,36929"
+  },
+  {
+    "examine": "Probably looked better mounted on the dragon's neck.",
+    "ids": "15564"
+  },
+  {
+    "examine": "A magical wall decoration.",
+    "ids": "32324,32325"
+  },
+  {
+    "examine": "Perhaps I should search this.",
+    "ids": "32009"
+  },
+  {
+    "examine": "The door is closed.",
+    "ids": "31808"
+  },
+  {
+    "examine": "The door is open.",
+    "ids": "31809"
+  },
+  {
+    "examine": "The bank teller will serve you from here.",
+    "ids": "36786"
+  },
+  {
+    "examine": "Closed for business.",
+    "ids": "36787"
+  },
+  {
+    "examine": "Banking transactions are processed here.",
+    "ids": "36789,37158"
+  },
+  {
+    "examine": "This will give me a bit more information.",
+    "ids": "29461,29462,29463,29464"
+  },
+  {
+    "examine": "I can climb over the fence using this.",
+    "ids": "29460"
+  },
+  {
+    "examine": "It looks slightly rickety.",
+    "ids": "29468"
+  },
+  {
+    "examine": "These probably contain Farming supplies.",
+    "ids": "29471"
+  },
+  {
+    "examine": "It could hold a gnome, but probably not a human.",
+    "ids": "29472"
+  },
+  {
+    "examine": "Contains gnome clothes.",
+    "ids": "29473"
+  },
+  {
+    "examine": "I wonder what's buried here.",
+    "ids": "29476,29477,29478"
+  },
+  {
+    "examine": "So small only a rabbit could squeeze down.",
+    "ids": "29533"
+  },
+  {
+    "examine": "Gnome sweet gnome?",
+    "ids": "29534"
+  },
+  {
+    "examine": "Potentially hot!",
+    "ids": "25464"
+  },
+  {
+    "examine": "A goblin fire. Looks fierce.",
+    "ids": "25465"
+  },
+  {
+    "examine": "A wooden crate for storage.",
+    "ids": "18506"
+  },
+  {
+    "examine": "A pile of crates for storage.",
+    "ids": "18508"
+  },
+  {
+    "examine": "I wonder where they will take me.",
+    "ids": "25432"
+  },
+  {
+    "examine": "'Pay back all your debts by borrowing more money from us!' Clever.",
+    "ids": "23924"
+  },
+  {
+    "examine": "The bank teller will serve you from here.",
+    "ids": "11402"
+  },
+  {
+    "examine": "I can climb up these stairs.",
+    "ids": "24349"
+  },
+  {
+    "examine": "A handy place for filling in forms and paperwork.",
+    "ids": "23928"
+  },
+  {
+    "examine": "Where people may put themselves.",
+    "ids": "17462"
+  },
+  {
+    "examine": "For keeping things in.",
+    "ids": "24924"
+  },
+  {
+    "examine": "Contains quite a lot of someone else's property.",
+    "ids": "23925"
+  },
+  {
+    "examine": "This chest looks strong.",
+    "ids": "23926"
+  },
+  {
+    "examine": "They say money can't buy happiness.",
+    "ids": "23929"
+  },
+  {
+    "examine": "A gilt sculpture of a monarch.",
+    "ids": "23930"
+  },
+  {
+    "examine": "Cave exit.",
+    "ids": "15812"
+  },
+  {
+    "examine": "A flag on a pole.",
+    "ids": "37335"
+  },
+  {
+    "examine": "I can climb down these stairs.",
+    "ids": "36775,36778"
+  },
+  {
+    "examine": "Jump here.",
+    "ids": "23271"
+  },
+  {
+    "examine": "Popular on sandy beaches where fruity cocktails may be found.",
+    "ids": "18856"
+  },
+  {
+    "examine": "Stop examining signs! You're in the Wilderness now!",
+    "ids": "14503"
+  },
+  {
+    "examine": "Looks like part of the entrance is blocked by rubble.",
+    "ids": "15767"
+  },
+  {
+    "examine": "They know how much that dog in the window is.",
+    "ids": "28351"
+  },
+  {
+    "examine": "Lots of things for a growing fish.",
+    "ids": "28355"
+  },
+  {
+    "examine": "It's a basket for dogs.",
+    "ids": "28338"
+  },
+  {
+    "examine": "Enough baskets for any dog's needs.",
+    "ids": "28339"
+  },
+  {
+    "examine": "Made by the A. Wilson Company.",
+    "ids": "28345"
+  },
+  {
+    "examine": "Sure it's gilded, but would you want to live in it?",
+    "ids": "28335"
+  },
+  {
+    "examine": "It's covered in hairs.",
+    "ids": "28361"
+  },
+  {
+    "examine": "It's good for bedding and stuffing.",
+    "ids": "28343"
+  },
+  {
+    "examine": "Lots of little fishies.",
+    "ids": "28340"
+  },
+  {
+    "examine": "Fetch!",
+    "ids": "28360"
+  },
+  {
+    "examine": "It's a basket for cats.",
+    "ids": "28337"
+  },
+  {
+    "examine": "It seems to be sat happily on the counter.",
+    "ids": "28356"
+  },
+  {
+    "examine": "Lots of things for a growing pup.",
+    "ids": "28353"
+  },
+  {
+    "examine": "Lots of things for a growing kitten.",
+    "ids": "28354"
+  },
+  {
+    "examine": "Lots of things for a growing pup/kitten/fish.",
+    "ids": "28357"
+  },
+  {
+    "examine": "Things are cheaper by the pound.",
+    "ids": "28344"
+  },
+  {
+    "examine": "It incubates eggs.",
+    "ids": "28336"
+  },
+  {
+    "examine": "There are a lot of pet supplies here.",
+    "ids": "28357,28358,28363,28364"
+  },
+  {
+    "examine": "Keeps the puppies out of trouble.",
+    "ids": "28341"
   }
 ]

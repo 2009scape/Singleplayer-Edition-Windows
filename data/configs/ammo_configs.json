@@ -1726,5 +1726,45 @@
     "darkbow_graphic": "",
     "projectile": "1839,40,36,32,32,15,0",
     "poison_damage": "0"
+  },
+  {
+    "itemId": "14202",
+    "name": "Arrows (class 1)",
+    "start_graphic": "24,96",
+    "darkbow_graphic": "1109,96",
+    "projectile": "15,40,36,41,46,5,0",
+    "poison_damage": "0"
+  },
+  {
+    "itemId": "14203",
+    "name": "Arrows (class 2)",
+    "start_graphic": "24,96",
+    "darkbow_graphic": "1109,96",
+    "projectile": "15,40,36,41,46,5,0",
+    "poison_damage": "0"
+  },
+  {
+    "itemId": "14204",
+    "name": "Arrows (class 3)",
+    "start_graphic": "24,96",
+    "darkbow_graphic": "1109,96",
+    "projectile": "15,40,36,41,46,5,0",
+    "poison_damage": "0"
+  },
+  {
+    "itemId": "14205",
+    "name": "Arrows (class 4)",
+    "start_graphic": "24,96",
+    "darkbow_graphic": "1109,96",
+    "projectile": "15,40,36,41,46,5,0",
+    "poison_damage": "0"
+  },
+  {
+    "itemId": "14206",
+    "name": "Arrows (class 5)",
+    "start_graphic": "24,96",
+    "darkbow_graphic": "1109,96",
+    "projectile": "15,40,36,41,46,5,0",
+    "poison_damage": "0"
   }
 ]

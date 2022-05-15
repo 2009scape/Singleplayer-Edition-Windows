@@ -1,4 +1,10 @@
 **/.idea
+
+# Runtime Data
 data/logs/
 data/players/
+data/serverstore/
+data/eco/grandexchange.db
+data/global_kill_stats.json
 database/data/
+latestdump.txt

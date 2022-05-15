@@ -5,6 +5,23 @@ set data=%~dp0\data\
 set database=%~dp0\database\
 set home=%~dp0
 
+:CHECK_JAVA
+java -version 1>nul 2>nul || (
+   echo ERROR: Java not installed!
+   GOTO OPENJDK
+)
+for /f tokens^=2-5^ delims^=.-_^" %%j in ('java -fullversion 2^>^&1') do set "jver=%%j%%k%%l%%m"
+
+if %jver% LSS 180261 (
+  echo Current Java version is outdated. Java 8 Update 261 is the minimum.
+  GOTO JAVA_VERSION_ERROR
+)
+
+if %jver% GTR 190000 (
+  echo Current Java version is not Java 8.
+  GOTO JAVA_VERSION_ERROR
+)
+
 GOTO start
 
 :JAVA_VERSION_ERROR
@@ -86,7 +103,7 @@ echo:
 cd "%home%"
 start /min "Management Server" java -Xms1024m -Xmx1024m -jar ms.jar
 ping localhost -n 3 > nul
-start /min "Server - CTRL+C to close" java -Xms1024m -Xmx1024m -cp server.jar rs09.Server "worldprops\default.conf"
+start /min "Server - CTRL+C to close" java -Xms1024m -Xmx1024m -cp server.jar rs09.Server "worldprops\default.json"
 ping localhost -n 10 > nul
 start /min "" java -Xms1024m -Xmx1024m -jar client.jar
 echo:

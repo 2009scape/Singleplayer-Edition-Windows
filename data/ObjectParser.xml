@@ -24,5 +24,6 @@
     <ObjectAction mode="add" id="20987" x="2821" y="2996" z="0" direction="s"/>
     <ObjectAction mode="add" id="9472" x="3353" y="3951" z="0" direction="s"/>
     <ObjectAction mode="add" id="21301" x="2662" y="3162" z="0" direction="e"/>
+    <ObjectAction mode="add" id="4176" x="2629" y="3661" z="2" type="4" direction="e"/>
 
 </parsing>

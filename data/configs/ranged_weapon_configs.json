@@ -1176,7 +1176,7 @@
     "weapon_type": "6",
     "animation": "2779",
     "drop_ammo": "0",
-    "ammunition": "10034"
+    "ammunition": "10033"
   },
   {
     "itemId": "10034",
@@ -1564,5 +1564,50 @@
     "animation": "426",
     "drop_ammo": "true",
     "ammunition": "882,883,5616,5622,598,884,885,5617,5623,2532,886,887,5618,5624,2534,888,889,5619,5625,2536,890,891,5620,5626,2538,892,893,5621,5627,2540,11212,11227,11228,11229,11217,78,4160"
+  },
+  {
+    "itemId": "14192",
+    "name": "Bow (class 1)",
+    "ammo_slot": "13",
+    "weapon_type": "0",
+    "animation": "426",
+    "drop_ammo": "true",
+    "ammunition": "14202,14203,14204,14205,14206"
+  },
+  {
+    "itemId": "14194",
+    "name": "Bow (class 2)",
+    "ammo_slot": "13",
+    "weapon_type": "0",
+    "animation": "426",
+    "drop_ammo": "true",
+    "ammunition": "14202,14203,14204,14205,14206"
+  },
+  {
+    "itemId": "14196",
+    "name": "Bow (class 3)",
+    "ammo_slot": "13",
+    "weapon_type": "0",
+    "animation": "426",
+    "drop_ammo": "true",
+    "ammunition": "14202,14203,14204,14205,14206"
+  },
+  {
+    "itemId": "14198",
+    "name": "Bow (class 4)",
+    "ammo_slot": "13",
+    "weapon_type": "0",
+    "animation": "426",
+    "drop_ammo": "true",
+    "ammunition": "14202,14203,14204,14205,14206"
+  },
+  {
+    "itemId": "14200",
+    "name": "Bow (class 5)",
+    "ammo_slot": "13",
+    "weapon_type": "0",
+    "animation": "426",
+    "drop_ammo": "true",
+    "ammunition": "14202,14203,14204,14205,14206"
   }
 ]

@@ -1,3 +1,3 @@
 # WE HAVE MOVED
 
-THIS PROJECT IS NO LONGER MAINTAINED ON GITHUB, PLEASE REFER TO [GITLAB](https://gitlab.com/2009scape/singleplayer/windows)
+GO TO THIS LINK TO GET A WORKING VERSION: [GITLAB](https://gitlab.com/2009scape/singleplayer/windows)
